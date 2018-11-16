@@ -23,7 +23,7 @@
     col_mmsn = 11; % Markov matrix similarity, normalized to linear fit
     col_dist = 12; % distribution
     col_dssm = 13; % distribution similarity
-    col_dssn = 13; % distribution similarity, normalized to linear fit
+    col_dssn = 14; % distribution similarity, normalized to linear fit
     
 	% Prepare target text
     Trgt{col_name} = 'Anonymous';
@@ -111,8 +111,8 @@
     
     % Markov matrices
     p_mrkv = polyfit(cell2mat(Cndt(:,col_wdct)),cell2mat(Cndt(:,col_mmsm)),1); % linear regression
-    x_mrkv = min(cell2mat(Cndt(:,col_wdct))):max(cell2mat(Cndt(:,col_wdct)));
-    y_mrkv = p_mrkv(1)*x_mrkv + p_mrkv(2);
+    x_arry = min(cell2mat(Cndt(:,col_wdct))):max(cell2mat(Cndt(:,col_wdct)));
+    y_mrkv = p_mrkv(1)*x_arry + p_mrkv(2);
     for cndt = 1:size(Cndt,1)
         Cndt{cndt,col_mmsn} = Cndt{cndt,col_mmsm} - (p_mrkv(1)*Cndt{cndt,col_wdct}+p_mrkv(2)); % vertical distance to linear regression 
     end
@@ -121,8 +121,7 @@
     
     % Distributions
     p_dist = polyfit(cell2mat(Cndt(:,col_wdct)),cell2mat(Cndt(:,col_dssm)),1); % linear regression
-    x_dist = min(cell2mat(Cndt(:,col_wdct))):max(cell2mat(Cndt(:,col_wdct)));
-    y_dist = p_dist(1)*x_dist + p_dist(2);
+    y_dist = p_dist(1)*x_arry + p_dist(2);
     for cndt = 1:size(Cndt,1)
         Cndt{cndt,col_dssn} = Cndt{cndt,col_dssm} - (p_dist(1)*Cndt{cndt,col_wdct}+p_dist(2)); % vertical distance to linear regression 
     end
@@ -158,7 +157,7 @@
     xlabel('Word count')
     ylabel('Markov matrix similarity, normalized to field')
     grid on
-    plot(x_mrkv,y_mrkv,'color',zeros(1,3)+0.75)
+    plot(x_arry,y_mrkv,'color',zeros(1,3)+0.75)
     
     figure(3)
     Cndt = sortrows(Cndt,col_mmsn);
@@ -184,7 +183,7 @@
     xlabel('Word count')
     ylabel('Word distribution similarity, normalized to field')
     grid on
-    plot(x_dist,y_dist,'color',zeros(1,3)+0.75)
+    plot(x_arry,y_dist,'color',zeros(1,3)+0.75)
     
     figure(6)
     Cndt = sortrows(Cndt,col_dssn);
