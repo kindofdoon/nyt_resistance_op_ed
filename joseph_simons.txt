@@ -1,0 +1,356 @@
+https://www.ftc.gov/system/files/documents/public_statements/1416593/chairman_joe_simons_privacy_shield_review_remarks-2018.pdf
+
+The free flow of data – across the Atlantic and around the world – unlocks
+many of the economic benefits from innovations like the Internet of Things, big
+data, and artificial intelligence. The success of the Privacy Shield Framework
+preserves these data flows and provides important privacy protections.
+This morning, I would like to speak briefly about what you can expect from
+the Federal Trade Commission (“FTC” or “Commission”) when it comes to
+Privacy Shield. The FTC, as you know, is an independent U.S. enforcement
+agency that plays a leading role in protecting consumer privacy. While the FTC
+has new Commissioners, our commitment to support the Privacy Shield
+Framework is unwavering, and we will continue to aggressively enforce and
+uphold it. We will continue to take action against companies that fail to honor a
+
+substantive commitment to the Privacy Shield principles, as well as those that
+make false claims of participation in the framework.
+The Commission brought three actions in 2017, another earlier this year,
+and four more last month. Together with our 39 actions under the predecessor
+U.S-EU Safe Harbor Framework, and our four actions related to the Asia-Pacific
+Economic Cooperative’s Cross-Border Privacy Rules system, the FTC has
+brought 51 actions to protect the privacy of cross-border data transfers.
+Our actions support the substantial efforts of the U.S. Department of
+Commerce to implement and administer the Privacy Shield Framework. In the
+past, we have brought enforcement actions against companies that, despite
+claiming to comply, never signed up with the framework or had let their
+registrations lapse. Over the last year, our actions addressed companies that began
+the process of signing up for the framework, and held themselves out as
+participants, but never actually finished the Department of Commerce’s careful
+verification process.
+Two of our most recent actions include new counts, for violating the
+requirement that companies leaving the framework affirm to the Department of
+Commerce that they will continue to apply the Privacy Shield principles to
+personal information received during the time they participated in the program.
+Along with our enforcement, the Commission has also issued business
+guidance about this aspect of Privacy Shield.
+
+ In fact, the FTC arranged for the
+Department of Commerce to share that guidance with the more than 3,700 Privacy
+Shield participants. The guidance reminds participants leaving Privacy Shield that
+they must continue to protect the data transferred under the Privacy Shield,
+consistent with its principles.
+The FTC will also continue to investigate in this area. The Commission
+recently issued administrative subpoenas to obtain materials from certain Privacy
+Shield participants as part of our agency’s ongoing efforts to proactively monitor
+compliance.
+Privacy Shield is part of our larger privacy enforcement program, which
+remains a top priority under my leadership. The FTC has a longstanding
+enforcement record, with hundreds of privacy and data security cases. Year after
+year, privacy and data security top the list of consumer protection priorities at the
+Federal Trade Commission. These concerns are critical to consumers and
+businesses alike. Press reports about privacy concerns and data breaches are 
+increasingly common—such as the reports about Facebook and Equifax, to name
+two high-profile examples. While our investigations are non-public, I can confirm
+that both of these companies are currently the subject of FTC investigations. And
+we take these cases – as with all others – very seriously.
+You also can expect further FTC privacy enforcement. Just this week, for
+example, the Commission announced a complaint and $3 million settlement
+against a company called RealPage for violating the Fair Credit Reporting Act.
+We alleged that the company failed to take reasonable steps to ensure the accuracy
+of tenant screening information provided to landlords and property managers,
+causing potential renters to be falsely associated with criminal records.
+In support of our vigorous enforcement agenda, the Federal Trade
+Commission has for many years engaged in substantial efforts to stay informed of
+market developments, shape our policy agenda, and identify opportunities to
+develop the law, consistent with our enforcement authority.
+As part of that process, the FTC recently kicked off a series of public
+hearings – both in Washington, D.C. and in other cities around the country – to
+consider whether broad-based changes in the economy, business practices,
+technologies, and international developments warrant adjustments to our
+competition and consumer protection laws, enforcement priorities, and policies.
+The hearings will include multiple sessions on data security, high tech
+platforms, big data, artificial intelligence, and other cutting-edge topics that
+challenge all of us to reexamine our regulatory approaches.
+We invite our colleagues in Europe to comment on and participate in these
+hearings. We want to learn from experiences across the globe.
+In conclusion, I am here today to help ensure that the Privacy Shield
+Framework remains a robust mechanism for protecting privacy and enabling
+transatlantic data flows. We continue our strong commitment to the framework.
+Three of our FTC staff, including the head of our privacy enforcement division, are
+here today and will further discuss the FTC’s work on this critical program. 
+
+https://www.ftc.gov/system/files/documents/public_statements/1413916/p180101_commission_testimony_re_antitrust_law_enforcement_10032018.pdf
+
+For over 100 years, the FTC has worked to ensure that American markets are open,
+vibrant, and unencumbered by unreasonable private or public restraints. With its dual missions to
+promote competition and protect consumers, the FTC applies antitrust and consumer protection
+law in a dynamic economy that is rapidly responding to new technology. The FTC is committed
+to understanding how technological developments and globalization can and should impact our law
+enforcement, research, and advocacy. As commerce and technology continue to evolve, companies
+may find newer ways to engage in consumer fraud schemes, deceptive advertising, and unfair
+practices that cause substantial consumer harm, with little or no benefit to consumers or competition;
+as well as mergers and conduct that harm, or threaten to harm, competition. Our agency tackles these
+challenges primarily through targeted law enforcement, although we also take full advantage of our
+unique set of policy tools. Our structure, research capacity, and committed staff enable the FTC to
+continue to meet its mandate of protecting consumers and competition in an ever-changing
+marketplace.
+
+This testimony highlights a number of recent FTC competition enforcement matters,
+including notable victories stopping anticompetitive mergers and conduct; public hearings that
+we are hosting on a variety of competition and consumer protection issues; and advocacy both
+domestically and abroad.
+
+The Commission seeks to promote competition through a rigorous, fact-intensive
+approach to law enforcement. The FTC has jurisdiction over a wide swath of the economy and
+focuses its enforcement efforts on sectors that most directly affect consumers and their wallets,
+such as health care, consumer products and services, technology, manufacturing, and energy.
+The agency shares primary jurisdiction with the Department of Justice in enforcing the nation’s
+antitrust laws.
+
+One of the agency’s principal responsibilities is to prevent mergers that may substantially
+lessen competition. Since fiscal year 2013, premerger filings under the Hart-Scott-Rodino
+(“HSR”) Act have increased more than 50 percent, bringing filings in the past fiscal year to the
+average over the past 20 years.
+3 In the most recent fiscal year, the antitrust agencies received 
+
+more than 2,000 HSR filings. The FTC work to challenge anticompetitive mergers has placed a
+considerable strain on the Commission’s resources that were already limited. Although most
+reported transactions do not raise competitive concerns and are cleared expeditiously by the
+agencies, when available evidence gives the Commission reason to believe that a proposed
+merger likely would be anticompetitive, the Commission does not hesitate to intervene. Since the
+beginning of FY 2016, the Commission has challenged 55 mergers. Although many of these
+cases were resolved through divestiture settlements, in the last year alone, the Commission sued
+to block five mergers, and each of these matters required a significant commitment of resources
+to prepare for litigation. Two of those challenges ended successfully when the parties abandoned
+the transactions after the Commission initiated litigation.
+For instance, after the FTC voted to
+sue the parties, Smuckers and ConAgra abandoned their proposed merger that likely would have
+substantially reduced competition for the sale of branded canola and vegetable oils. In July, the
+district court in Washington, D.C. issued a preliminary injunction blocking Wilhelmsen Maritime
+Services’ proposed acquisition of Drew Marine Group, a merger that would have combined the
+world’s two largest suppliers of water treatment chemicals used by tankers, container ships, and 
+
+cruise ships.
+The parties subsequently abandoned both transactions. Three other merger cases
+are still pending in litigation.
+
+As noted above, the Commission continues to resolve most horizontal merger challenges
+through negotiated settlements requiring divestitures that sufficiently replace lost competition. In
+the past year, for example, the FTC reviewed a number of horizontal mergers involving retail gas
+stations and convenience stores, and required divestitures to maintain competition in more than
+150 local gasoline markets. The Commission also took action to prevent harm from horizontal
+mergers involving a wide variety of products (such as cement, agricultural chemicals,
+medical instruments,
+and pharmaceuticals) and services (such as specialty veterinary
+services and air ambulance services).
+
+The FTC also reviews vertical mergers and, when appropriate, acts to prevent harm to
+competition. For example, the Commission reviewed the merger of Northrop Grumman, a
+leading provider of missile systems to the Department of Defense (DOD), and Orbital ATK, a
+key supplier of solid rocket motors (SRM). Our competitive concern was that the acquisition
+would provide Northrop with the incentive and ability to harm competition for missile contracts
+by either withholding access to Orbital’s solid rocket motors or increasing SRM prices to
+competitors. As a result, competitors would be forced to raise the prices of their missile systems,
+invest less aggressively to win missile programs, or decide not to compete at all, which, in turn,
+would decrease competitive pressure on Northrop. The acquisition also created a risk that the
+proprietary, competitively sensitive information of a rival SRM supplier supporting Northrop’s
+missile system business could be shared with Northrop’s vertically integrated SRM business.
+The FTC worked closely with the DOD in our review, and our proposed order imposes nondiscrimination
+requirements and a firewall to preserve competition.
+One increasing challenge for the Commission in litigating competition cases is the need
+to hire testifying economic experts. Qualified experts are a critical resource in all of the FTC’s
+competition cases heading toward litigation. Although the agency thus far has managed to
+allocate sufficient resources to fund the experts needed to support its cases and continues to
+develop strategies for managing expert costs more effectively, the FTC is reaching the point
+where it will be unable to meet these needs without compromising its ability to fulfill other
+aspects of the agency’s mission. The Commission appreciates Congress’s attention to its 
+
+resource needs, including the need to continue to hire outside experts to support effective
+antitrust enforcement.
+Finally, the Commission is committed to efficient and transparent merger review. In
+response to concerns that merger investigations are taking longer than they used to, the Bureau
+has developed a more robust system of tracking key milestones in the merger review process to
+determine whether this perception has merit and, if so, why some reviews may be taking longer.
+Armed with better information, the Bureau will assess what might be done to make the merger
+review process more efficient and less burdensome, while still ensuring the right outcome for
+consumers. The Bureau also has released a Model Timing Agreement, which adds greater
+transparency and certainty to the merger review process.
+
+The Commission maintains a robust program to identify and stop anticompetitive
+conduct, especially in critical health care markets. For over twenty years and on a bipartisan
+basis, the Commission has prioritized ending anticompetitive reverse payment agreements in
+which a brand-name drug firm pays its potential generic rival to give up its patent challenge and
+agree not to launch a lower cost generic product. Following the U.S. Supreme Court’s 2013
+decision in FTC v. Actavis, Inc.,
+the Commission is in a much stronger position to challenge
+agreements of this type; recently, the district court on remand denied the defendants’ motion for
+summary judgment in that case, clearing it for trial. In addition, since Actavis, the FTC obtained
+
+a landmark $1.2 billion settlement from the maker of sleep disorder drug Provigil, and other
+manufacturers have agreed to abandon anticompetitive agreements of this type.
+ Currently, the
+FTC has three additional matters pending in litigation challenging reverse payment agreements.
+
+The Commission also has challenged anticompetitive unilateral conduct by drug
+manufacturers to maintain a monopoly, such as abuse of government process through sham
+litigation or repetitive regulatory filings intended to slow the approval of competitive drugs.
+Here too, the Commission recently had a major victory when a federal court ruled on the basis of
+a full trial record that AbbVie Inc. used sham litigation to illegally maintain its monopoly over
+the testosterone replacement drug Androgel, and ordered $493.7 million in monetary relief to
+those who were overcharged for Androgel as a result of AbbVie’s conduct. This case represents
+the first time any court has found that sham litigation violated Section 2 of the Sherman Act since 
+
+the U.S. Supreme Court first recognized this legal theory in Professional Real Estate Investors,
+Inc. v. Columbia Pictures Industries, Inc., and it is a significant win for consumers.
+
+Nevertheless, the FTC’s antitrust enforcement program has faced some setbacks. In 2017,
+the FTC filed a complaint in federal district court charging Shire ViroPharma Inc. with violating
+the antitrust laws by abusing government processes through a campaign of serial, repetitive, and
+unsupported filings with the U.S. Food and Drug Administration (FDA) and courts to delay the
+FDA’s approval of generic Vancocin capsules.
+ Vancocin capsules are used to treat C.difficileassociated
+diarrhea, or CDAD, a sometimes life-threatening bacterial infection. The FTC alleged
+that Vancocin capsules are not reasonably interchangeable with any other medications used to
+treat CDAD, and that because of ViroPharma’s actions, consumers and other purchasers paid
+hundreds of millions of dollars more for their medication.
+In March of this year, the district court in Delaware ruled that ViroPharma’s repetitive
+and baseless petitions to the FDA amounted to sham petitioning that was not protected activity
+under the Noerr-Pennington doctrine; unfortunately, however, the court nonetheless dismissed
+the FTC’s monopolization complaint, ruling that the agency failed to adequately plead an
+imminent violation of antitrust law that would merit a permanent injunction under Section 13(b)
+of the FTC Act. The FTC has appealed this ruling to the Third Circuit, noting that no court in the
+
+45 years since the enactment of Section 13(b) has required the FTC to meet this more stringent
+standard for imminence of harm.
+
+The Commission is also attentive to situations where health care firms engage in conduct
+that restrains competition for employees, such as anticompetitive information exchanges and
+other collusive practices by employers in labor markets. For example, in July, the FTC charged
+three parties—a Texas company that provides therapists to home health agencies, the company’s
+owner, and the former owner of a competing staffing company—with violating the antitrust laws.
+The Commission alleged that the parties violated the FTC Act by agreeing to reduce rates paid to
+therapists and by inviting other competitors to join their collusive scheme. Fortunately, the FTC
+and Texas Attorney General were successful in stopping this conduct quickly. Just as American
+consumers deserve robust competition among producers who set prices for the goods they buy,
+American workers deserve robust competition among potential employers who determine their
+wages. This case highlights an important message of the October 2016 joint DOJ/FTC guidance
+for human resources professionals: competition is essential to well-functioning markets,
+including job markets.
+
+From smart appliances and smart cars to mobile devices and search platforms, the
+widespread use of technology and data is changing not only the way we live, but also the way
+firms operate. Although many of these changes offer consumer benefits, they also raise complex 
+
+and sometimes novel competition issues. Given the important role that technology companies
+play in the American economy, it is critical that the Commission—in furthering its mission to
+protect consumers and promote competition—not only understand current and developing
+business models, but also scrutinize incumbents’ conduct to ensure that they abide by the same
+rules of competitive markets that apply to any company. When appropriate, the Commission will
+take action to counter the harmful effects of proposed transactions and coordinated or unilateral
+conduct by technology firms.
+
+Although vigorous law enforcement is the primary tool the Commission uses to promote
+competition and protect consumers, we take advantage of a variety of research and advocacy
+tools to stay current with emerging trends in our dynamic economy, study business
+developments, and advocate for policies that eliminate unreasonable restrictions on competition.
+In June, Chairman Simons announced a new series of public hearings—Hearings on
+Competition and Consumer Protection in the 21st Century—to consider whether broad-based
+changes in the economy, evolving business practices, new technologies, and international
+developments warrant adjustments to competition and consumer protection law, enforcement
+priorities, and policy. This initiative is modeled on a similar effort in 1995 by former FTC
+Chairman Bob Pitofsky, which was the first step in establishing the FTC as a key modern center
+for competition “R&D,” and led to a well-received two-volume staff report, Anticipating the 21st
+
+Century, which presented analyses and recommendations on competition and consumer
+protection policy, respectively.
+ Similarly, through the series of hearings that began on
+September 13, the Commission is devoting significant resources to refresh and, if warranted,
+renew its thinking on a wide range of cutting-edge competition and consumer protection issues.
+The hearings kicked off last month at Georgetown University Law Center, with opening sessions
+on market competitiveness, enforcement policy, and the regulation of consumer data. The
+Commission approaches this effort with an open mind, and we are open to using what we learn
+from the hearings to more effectively carry out our mission to protect consumers and
+competition.
+The Commission will also continue to look for opportunities to issue joint guidance with
+our antitrust partners at the Department of Justice. Last year, the agencies issued updated
+Antitrust Guidelines for the Licensing of Intellectual Property, which explain how the federal
+antitrust agencies evaluate licensing and related activities involving patents, copyrights, trade
+secrets, and know-how. This update modernizes the agencies’ 1995 IP Licensing Guidelines,
+ensuring that they continue to provide useful guidance to the public and the business community
+about the agencies’ enforcement approach to intellectual property licensing.
+The FTC also engages in competition advocacy, providing comments to state legislatures,
+state and federal agencies, and other policymakers. Competition advocacy is particularly
+effective in addressing market restraints imposed by governments themselves, such as excessive
+state occupational licensing requirements, where the likely effects on competition and other 
+
+social objectives like employment may not be adequately understood by policy makers.
+ For
+example, the FTC’s Economic Liberty Task Force recently released a policy paper entitled
+Policy Perspectives: Options to Enhance Occupational License Portability. This paper assesses
+various approaches that state licensure boards, professional organizations, state legislatures, and
+others may consider in developing effective licensure portability initiatives. American workers,
+employers, consumers, and our economy as a whole will benefit from eliminating unnecessary
+and overbroad licensing requirements that impose costs, limit competition, and are not needed to
+protect consumer health and safety.
+The FTC also relies on its expertise in health care competition to identify policies that
+impose unnecessary burdens on competition to the detriment of consumers. For instance, the
+FTC recently responded to the Department of Health and Human Services’ request for comment
+on its Blueprint to Lower Drug Prices and Reduce Out-of-Pocket Costs, focusing on two topics:
+misuse of Risk Evaluation and Mitigation Strategies (REMS) programs and biologic
+competition. The FTC supports well-crafted regulatory and legislative actions to correct the
+misuse of REMS programs. Today, brands can misuse REMS restrictions to prevent or delay
+generic firms from obtaining FDA approval for lower cost drugs, and may place voluntary limits
+on drug distribution that deny potential generic competitors access to the samples they need for
+bioequivalence testing. In addition, the Commission’s comment explains how certain FDA
+regulations may create unnecessary barriers to biosimilar and interchangeable competition, and
+
+recommends that the FDA reconsider its naming guidance for biologics and expedite the
+approval process for interchangeable biosimilars.
+
+In addition to its domestic programs, the FTC engages in significant international work.
+On the competition side, with the expansion of global trade and the operation of many companies
+across national borders, the FTC and DOJ increasingly engage with foreign antitrust agencies to
+ensure close collaboration on cross-border cases and convergence toward sound competition
+policies and procedures.
+Putting these principles into practice, the FTC effectively coordinates reviews of mergers
+and cases of potential unilateral anticompetitive conduct under concurrent review with its
+international counterparts to achieve effective, sound, and consistent outcomes. For example, in
+the recent merger of medical device makers Abbott Laboratories and St. Jude Medical, Inc.,
+Commission staff worked cooperatively with the staff of antitrust agencies in Brazil, Canada,
+China, the European Union, Israel, Korea, and South Africa, including with respect to the
+remedy and divestiture package.
+The U.S. antitrust agencies also facilitate dialogue and promote convergence through
+multiple channels, including bilateral relations with foreign competition agencies and an active
+role in multilateral competition organizations. For example, in 2018, we held high-level bilateral
+meetings with counterparts from China’s antitrust authorities to promote sound practice and
+process in antitrust investigations. Our discussion topics included procedural fairness,
+interagency cooperation, and antitrust treatment of the exercise of intellectual property rights.
+
+The FTC will support the continued development of such initiatives, including recent
+consultations with EC Competition Commissioner Vestager and her senior team, and upcoming
+consultations with our counterparts from Canada and Mexico.
+In addition, the FTC plays a key role in multilateral fora dedicated to facilitating dialogue
+and convergence toward sound competition policy and enforcement. For example, the FTC led
+the development, and is now promoting the implementation, of the International Competition
+Network’s (ICN) Guidance on Investigative Process, the most comprehensive agency-led effort
+to articulate principles and practices of procedural fairness in antitrust investigations. We also are
+heading a project aimed at further developing the ICN’s flagship, its Recommended Practices for
+Merger Notification and Review Procedures, which has resulted in more streamlined review of
+cross-border transactions.
+When appropriate, the FTC also works with other U.S. government agencies to ensure
+that competition-related issues that also implicate broader U.S. policy interests, such as the
+protection of intellectual property and non-discriminatory treatment towards U.S. companies, are
+addressed in a coordinated and effective manner. For example, the FTC participated in
+negotiating the relevant chapters of NAFTA, was a member of the U.S. team involved in shaping
+G20 and G7 outcomes on digital economy issues, and has been part of interagency groups that
+addressed economic and trade issues with China and Korea.
+Last year, the FTC and DOJ issued updated Antitrust Guidelines for International
+Enforcement and Cooperation to provide transparent guidance to the business community on our
+international antitrust enforcement and cooperation policies, including on the territorial scope of
+antitrust investigations and remedies.
+
+As the members of this Subcommittee know, competitive markets are the foundation of
+our economy, and effective antitrust enforcement helps ensure that those markets function well
+and benefit both consumers and businesses. Thank you for this opportunity to share highlights of
+the Commission’s recent enforcement, research, and advocacy work to promote competition and
+protect consumers. 
