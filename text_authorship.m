@@ -2,6 +2,7 @@
 
     clear
     clc
+    close all
 
     precision = 1000; % recommended: 1000
     
@@ -128,8 +129,6 @@
     a = cell2mat(Cndt(:,col_dssn));
     Cndt(:,col_dssn) = num2cell((a-min(a))/(max(a)-min(a)));
     
-%     col_dsnr
-    
     %% Plot results
     
     disp('Plotting results...')
@@ -139,21 +138,19 @@
         clf
         hold on
         set(gcf,'color','white')
-        set(gcf,'position',[500 200 800 600])
+        set(gcf,'position',[2000 100 800 800])
+        title('Authorship of NYT ''Resistance'' Op-Ed Based On Linguistic Similarity')
     end
     
     figure(1)
-%     title('Markov matrix similarity')
-    Cndt = sortrows(Cndt,-col_mmsm);
-    bar(1:size(Cndt,1),cell2mat(Cndt(:,col_mmsm)), 0.75, 'facecolor',zeros(1,3)+0.75)
+    Cndt = sortrows(Cndt,col_mmsm);
+    barh(1:size(Cndt,1),cell2mat(Cndt(:,col_mmsm)), 0.75, 'facecolor',zeros(1,3)+0.75)
     grid on
-    set(gca,'xtick',1:size(Cndt,1)); 
-    set(gca,'xticklabel',Cndt(:,col_name))
-    set(gca,'xticklabelrotation',90)
-    ylabel('Markov matrix similarity, normalized to field')
+    set(gca,'ytick',1:size(Cndt,1)); 
+    set(gca,'yticklabel',Cndt(:,col_name))
+    xlabel('Markov matrix similarity, normalized to field')
     
     figure(2)
-%     title('Markov matrix similarity vs. word count')
     scatter(cell2mat(Cndt(:,col_wdct)),cell2mat(Cndt(:,col_mmsm)),'k+')
     for c = 1:size(Cndt,1)
         text(Cndt{c,col_wdct},Cndt{c,col_mmsm},['  ' Cndt{c,col_name}],'fontsize',8)
@@ -164,34 +161,22 @@
     plot(x_mrkv,y_mrkv,'color',zeros(1,3)+0.75)
     
     figure(3)
-%     title('Markov matrix similarity')
-    Cndt = sortrows(Cndt,-col_mmsn);
-    bar(1:size(Cndt,1),cell2mat(Cndt(:,col_mmsn)), 0.75, 'facecolor',zeros(1,3)+0.75)
-    for c = 1:size(Cndt,1)
-        text(Cndt{c,col_wdct},Cndt{c,col_mmsm},['  ' Cndt{c,col_name}],'fontsize',8)
-    end
-    ylabel('Markov matrix similarity, normalized to field and word count')
+    Cndt = sortrows(Cndt,col_mmsn);
+    barh(1:size(Cndt,1),cell2mat(Cndt(:,col_mmsn)), 0.75, 'facecolor',zeros(1,3)+0.75)
+    xlabel('Markov matrix similarity, normalized to field and word count')
     grid on
-    set(gca,'xtick',1:size(Cndt,1)); 
-    set(gca,'xticklabel',Cndt(:,col_name))
-    set(gca,'xticklabelrotation',90)
-
+    set(gca,'ytick',1:size(Cndt,1)); 
+    set(gca,'yticklabel',Cndt(:,col_name))
     
     figure(4)
-%     title('Markov matrix similarity')
-    Cndt = sortrows(Cndt,-col_dssm);
-    bar(1:size(Cndt,1),cell2mat(Cndt(:,col_dssm)), 0.75, 'facecolor',zeros(1,3)+0.75)
-%     for c = 1:size(Cndt,1)
-%         text(Cndt{c,col_wdct},Cndt{c,col_smlr},['  ' Cndt{c,col_name}],'fontsize',8)
-%     end
-    ylabel('Word distribution similarity, normalized to field')
+    Cndt = sortrows(Cndt,col_dssm);
+    barh(1:size(Cndt,1),cell2mat(Cndt(:,col_dssm)), 0.75, 'facecolor',zeros(1,3)+0.75)
+    xlabel('Word distribution similarity, normalized to field')
     grid on
-    set(gca,'xtick',1:size(Cndt,1)); 
-    set(gca,'xticklabel',Cndt(:,col_name))
-    set(gca,'xticklabelrotation',90)
+    set(gca,'ytick',1:size(Cndt,1)); 
+    set(gca,'yticklabel',Cndt(:,col_name))
     
     figure(5)
-%     title('Markov matrix similarity vs. word count')
     scatter(cell2mat(Cndt(:,col_wdct)),cell2mat(Cndt(:,col_dssm)),'k+')
     for c = 1:size(Cndt,1)
         text(Cndt{c,col_wdct},Cndt{c,col_dssm},['  ' Cndt{c,col_name}],'fontsize',8)
@@ -202,36 +187,14 @@
     plot(x_dist,y_dist,'color',zeros(1,3)+0.75)
     
     figure(6)
-%     title('Markov matrix similarity')
-    Cndt = sortrows(Cndt,-col_dssn);
-    bar(1:size(Cndt,1),cell2mat(Cndt(:,col_dssn)), 0.75, 'facecolor',zeros(1,3)+0.75)
-    for c = 1:size(Cndt,1)
-        text(Cndt{c,col_wdct},Cndt{c,col_dssn},['  ' Cndt{c,col_name}],'fontsize',8)
-    end
-    ylabel('Word distribution similarity, normalized to field and word count')
+    Cndt = sortrows(Cndt,col_dssn);
+    barh(1:size(Cndt,1),cell2mat(Cndt(:,col_dssn)), 0.75, 'facecolor',zeros(1,3)+0.75)
+    xlabel('Word distribution similarity, normalized to field and word count')
     grid on
-    set(gca,'xtick',1:size(Cndt,1)); 
-    set(gca,'xticklabel',Cndt(:,col_name))
-    set(gca,'xticklabelrotation',90)
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    set(gca,'ytick',1:size(Cndt,1)); 
+    set(gca,'yticklabel',Cndt(:,col_name))
 
 % end
-
-
-
-
-
-
 
 
 

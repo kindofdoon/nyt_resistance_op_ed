@@ -26,6 +26,7 @@ function [Mrkv, Word_Posn] = markov_matrix(Word,Dict)
         
         if length(Word{s})==0 % only one word in this fragment
             warning(['fragment ' num2str(s) ' is sparse or empty'])
+            continue
         end
         
         for w = 1:length(Word{s})-1 % for each word

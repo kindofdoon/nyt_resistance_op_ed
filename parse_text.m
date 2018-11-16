@@ -1,7 +1,5 @@
 function [Sent, Word, Dict] = parse_text(text)
 
-%     exp_word = '([a-zA-Z''-]+)[, \.;?!]';                         % extracts words
-%     exp_sent = '[;,?!:\(\)\[\]0-9\%]\s{0,}([A-Z]?[Ia-z \-'']+)'; % sentence fragment
     exp_sent = ';\s{0,}([A-Z]?[Ia-z \-'']+)'; % sentence fragment
     
     % Prepare text for parsing
@@ -46,9 +44,7 @@ function [Sent, Word, Dict] = parse_text(text)
     % Break up sentences into words
     Word = cell(length(Sent),1);
     for s = 1:length(Sent)
-%         Word(s) = regexp(Sent(s),'([a-zA-Z''-]+)[, \.;?!]','tokens');
         Word(s) = regexp(Sent(s),'([Ia-z\-'']+)','tokens');
-        
     end
     
 %     disp('Extracting dictionary...')
@@ -70,7 +66,6 @@ function [Sent, Word, Dict] = parse_text(text)
     Dict = unique(Dict);
 
 end
-
 
 
 
