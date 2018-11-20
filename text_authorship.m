@@ -1,14 +1,18 @@
-% function text_authorship
+function text_authorship
 
-    clear
+%     clear
     clc
     close all
 
-    precision = 1000; % recommended: 1000
+    precision = int32(1000); % recommended: 1000
     
     %%
     
     load('candidates','Cndt','Cndt_Hedr')
+    bar_width = 0.75;
+    bar_color = 0.75 + zeros(1,3);
+    
+    %%
     
     col_name = 1;  % candidate name: First Last (no middle names or initials)
     col_posn = 2;  % position in administration
@@ -24,16 +28,15 @@
     col_dist = 12; % distribution
     col_dssm = 13; % distribution similarity
     col_dssn = 14; % distribution similarity, normalized to linear fit
+    col_smoa = 15; % similarity, overall (sum of col_mmsn and col_dssn)
     
 	% Prepare target text
     Trgt{col_name} = 'Anonymous';
     Trgt{col_posn} = 'Senior Administration Official';
     Trgt{col_deny} = 'n/a';
     Trgt{col_text} = load_text('resistance.txt');
-    [Trgt{col_sent}, Trgt{col_word}, ~] = parse_text(Trgt{col_text});
+    [Trgt{col_sent}, Trgt{col_word}, Dict] = parse_text(Trgt{col_text});
     Trgt{col_wdct} = word_count(Trgt{col_word});
-    
-    text_mstr = []; % text master: includes all text in master and targets
     
     disp('Parsing text...')
     
@@ -43,8 +46,8 @@
         if exist(filename) ~= 0
             disp(['  ' Cndt{cndt,col_name}])
             Cndt{cndt,col_text} = load_text(filename);
-            [Cndt{cndt,col_sent}, Cndt{cndt,col_word}, ~] = parse_text(Cndt{cndt,col_text});
-            text_mstr = [text_mstr '. ' Cndt{cndt,4}];
+            [Cndt{cndt,col_sent}, Cndt{cndt,col_word}, Dict_add] = parse_text(Cndt{cndt,col_text});
+            Dict = [Dict; Dict_add]; % append
         else
             Cndt(cndt,:) = [];
             warning([filename ' not found; skipping candidate'])
@@ -54,30 +57,34 @@
     end
     
     disp('Generating matrices...')
-    
-    [~, ~, Dict] = parse_text(text_mstr); % extract a master dictionary
+
+    % Generate a master dictionary
+    Dict = unique(Dict);
+    Dict = containers.Map(Dict,uint32(1:length(Dict)));
     
     [Trgt{col_mrkv}, Trgt{col_wdpn}] = markov_matrix(Trgt{col_word},Dict); % Markov for target text
     Trgt{col_wdct} = word_count(Trgt{col_word}); % word count
-    Trgt{col_dist} = sum(Trgt{col_wdpn},2); % distribution of word counts
+    Trgt{col_dist} = int32(sum(Trgt{col_wdpn},2)); % distribution of word counts
     
     for cndt = 1:size(Cndt) % for each candidate
         disp(['  ' Cndt{cndt,col_name}])
         [Cndt{cndt,col_mrkv}, Cndt{cndt,col_wdpn}] = markov_matrix(Cndt{cndt,col_word},Dict); % Markov matrix
         Cndt{cndt,col_wdct} = word_count(Cndt{cndt,col_word}); % word count
-        Cndt{cndt,col_dist} = sum(Cndt{cndt,col_wdpn},2); % distribution of word counts
+        Cndt{cndt,col_dist} = int32(sum(Cndt{cndt,col_wdpn},2)); % distribution of word counts
     end
     
-    %% Compare target and candidatess
+    %% Compare target and candidates
     
     disp('Scaling results...')
     
-    % Normalize matrices
+    % Normalize matrices to word counts
     for col = [col_mrkv, col_wdpn, col_dist]
-        Trgt{col} = Trgt{col} * precision / max(Trgt{col}(:)); % scale to [0 precision]
+        scale = precision / max(Trgt{col}(:));
+        Trgt{col} = Trgt{col} * scale; % scale to [0 precision]
         for cndt = 1:size(Cndt,1)
             disp(['  ' Cndt{cndt,col_name}])
-            Cndt{cndt,col} = Cndt{cndt,col} * precision / max(Cndt{cndt,col}(:));
+            scale = precision / max(Cndt{cndt,col}(:));
+            Cndt{cndt,col} = Cndt{cndt,col} * scale;
         end
     end
     
@@ -88,20 +95,18 @@
         disp(['  ' Cndt{cndt,col_name}])
         
         % Markov matrices
-        Cndt{cndt,col_mmsm} = abs(Trgt{col_mrkv} - Cndt{cndt,col_mrkv}); % "error" signal
-        Cndt{cndt,col_mmsm} = -sum(Cndt{cndt,col_mmsm}(:)); % sum and invert for "similarity" signal
+        Cndt{cndt,col_mmsm} = -sum(sum(abs(Trgt{col_mrkv} - Cndt{cndt,col_mrkv}))); % sum and invert for "similarity" signal
         
         % Distributions
-        Cndt{cndt,col_dssm} = abs(Trgt{col_dist} - Cndt{cndt,col_dist}); % "error" signal
-        Cndt{cndt,col_dssm} = -sum(Cndt{cndt,col_dssm}(:)); % sum and invert for "similarity" signal
+        Cndt{cndt,col_dssm} = -sum(sum(abs(Trgt{col_dist} - Cndt{cndt,col_dist}))); % sum and invert for "similarity" signal
         
     end
     
     disp('Normalizing results...')
     
     % Matrices
-    smlr = cell2mat(Cndt(:,col_mmsm));
-    Cndt(:,col_mmsm) = num2cell((smlr-min(smlr))/(max(smlr)-min(smlr)));
+    mmsm = cell2mat(Cndt(:,col_mmsm));
+    Cndt(:,col_mmsm) = num2cell((mmsm-min(mmsm))/(max(mmsm)-min(mmsm)));
     
     % Distributions
     dssm = cell2mat(Cndt(:,col_dssm));
@@ -128,11 +133,17 @@
     a = cell2mat(Cndt(:,col_dssn));
     Cndt(:,col_dssn) = num2cell((a-min(a))/(max(a)-min(a)));
     
+    for cndt = 1:size(Cndt,1)
+        Cndt{cndt,col_smoa} = Cndt{cndt,col_mmsn} + Cndt{cndt,col_dssn};
+    end
+    smoa = cell2mat(Cndt(:,col_smoa)); % normalize overall similarity
+    Cndt(:,col_smoa) = num2cell((smoa-min(smoa))/(max(smoa)-min(smoa)));
+    
     %% Plot results
     
     disp('Plotting results...')
     
-    for f = 1:6
+    for f = 1:7
         figure(f)
         clf
         hold on
@@ -143,7 +154,7 @@
     
     figure(1)
     Cndt = sortrows(Cndt,col_mmsm);
-    barh(1:size(Cndt,1),cell2mat(Cndt(:,col_mmsm)), 0.75, 'facecolor',zeros(1,3)+0.75)
+    barh(1:size(Cndt,1),cell2mat(Cndt(:,col_mmsm)), bar_width, 'facecolor',bar_color)
     grid on
     set(gca,'ytick',1:size(Cndt,1)); 
     set(gca,'yticklabel',Cndt(:,col_name))
@@ -157,11 +168,11 @@
     xlabel('Word count')
     ylabel('Markov matrix similarity, normalized to field')
     grid on
-    plot(x_arry,y_mrkv,'color',zeros(1,3)+0.75)
+    plot(x_arry,y_mrkv,'color',bar_color)
     
     figure(3)
     Cndt = sortrows(Cndt,col_mmsn);
-    barh(1:size(Cndt,1),cell2mat(Cndt(:,col_mmsn)), 0.75, 'facecolor',zeros(1,3)+0.75)
+    barh(1:size(Cndt,1),cell2mat(Cndt(:,col_mmsn)), bar_width, 'facecolor',bar_color)
     xlabel('Markov matrix similarity, normalized to field and word count')
     grid on
     set(gca,'ytick',1:size(Cndt,1)); 
@@ -169,7 +180,7 @@
     
     figure(4)
     Cndt = sortrows(Cndt,col_dssm);
-    barh(1:size(Cndt,1),cell2mat(Cndt(:,col_dssm)), 0.75, 'facecolor',zeros(1,3)+0.75)
+    barh(1:size(Cndt,1),cell2mat(Cndt(:,col_dssm)), bar_width, 'facecolor',bar_color)
     xlabel('Word distribution similarity, normalized to field')
     grid on
     set(gca,'ytick',1:size(Cndt,1)); 
@@ -183,17 +194,25 @@
     xlabel('Word count')
     ylabel('Word distribution similarity, normalized to field')
     grid on
-    plot(x_arry,y_dist,'color',zeros(1,3)+0.75)
+    plot(x_arry,y_dist,'color',bar_color)
     
     figure(6)
     Cndt = sortrows(Cndt,col_dssn);
-    barh(1:size(Cndt,1),cell2mat(Cndt(:,col_dssn)), 0.75, 'facecolor',zeros(1,3)+0.75)
+    barh(1:size(Cndt,1),cell2mat(Cndt(:,col_dssn)), bar_width, 'facecolor',bar_color)
     xlabel('Word distribution similarity, normalized to field and word count')
     grid on
     set(gca,'ytick',1:size(Cndt,1)); 
     set(gca,'yticklabel',Cndt(:,col_name))
+    
+    figure(7)
+    Cndt = sortrows(Cndt,col_smoa);
+    barh(1:size(Cndt,1),cell2mat(Cndt(:,col_smoa)), bar_width, 'facecolor',bar_color)
+    xlabel('Overall normalized similarity, including Markov matrix and word distribution')
+    grid on
+    set(gca,'ytick',1:size(Cndt,1)); 
+    set(gca,'yticklabel',Cndt(:,col_name))
 
-% end
+end
 
 
 

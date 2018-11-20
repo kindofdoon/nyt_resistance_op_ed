@@ -4,13 +4,14 @@ function [Sent, Word, Dict] = parse_text(text)
     
     % Prepare text for parsing
     text = regexprep(text,'[,0-9\%\$\#\:]+[a-zA-Z]{0,}',';'); % break up fragments
-    text = regexprep(text,'’','''');          % replace angled apostrophes with straight ones
-    text = regexprep(text,'[\,\.\?\!§]',';');     % standardize punctuation
-    text = regexprep(text,'\.{1,}',';');      % ellipses
-    text = regexprep(text, '-{2,}',';');      % multi-dashes
-    text = regexprep(text, '—{1,}',';');      % emdashes
-    text = regexprep(text, '"[^"]+"',';'); % symmetrical quotes
-    text = regexprep(text, '“[^“”]+”',';'); % asymmetrical quotes
+    text = regexprep(text,'’','''');            % replace angled apostrophes with straight ones
+    text = regexprep(text,'Mrs?.','');          % remove titles, which look like ends of sentences
+    text = regexprep(text,'[\,\.\?\!§]',';');   % standardize punctuation
+    text = regexprep(text,'\.{1,}',';');        % ellipses
+    text = regexprep(text, '-{2,}',';');        % multi-dashes
+    text = regexprep(text, '—{1,}',';');        % emdashes
+    text = regexprep(text, '"[^"]+"',';');      % symmetrical quotes
+    text = regexprep(text, '“[^“”]+”',';');     % asymmetrical quotes
     
     % Delete proper nouns
     [cap_start, cap_end] = regexp(text,'([A-HJ-Z][a-z''-]{0,})','start','end'); % location of capitalized words
@@ -44,7 +45,7 @@ function [Sent, Word, Dict] = parse_text(text)
     % Break up sentences into words
     Word = cell(length(Sent),1);
     for s = 1:length(Sent)
-        Word(s) = regexp(Sent(s),'([Ia-z\-'']+)','tokens');
+        Word(s) = regexp(lower(Sent(s)),'([a-z\-'']+)','tokens');
     end
     
 %     disp('Extracting dictionary...')
@@ -58,7 +59,7 @@ function [Sent, Word, Dict] = parse_text(text)
     Dict = cell(word_count,1); % pre-allocate
     for s = 1:length(Word) % for each sentence
         for w = 1:length(Word{s}) % for each word
-            Dict(r) = lower(Word{s}{w});
+            Dict(r) = Word{s}{w};
             r = r+1;
         end
     end
@@ -66,6 +67,7 @@ function [Sent, Word, Dict] = parse_text(text)
     Dict = unique(Dict);
 
 end
+
 
 
 
