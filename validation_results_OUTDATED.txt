@@ -1,0 +1,2065 @@
+Found 221 samples from 42 candidates
+Validation is expected to take 105 min; press Ctrl+C to break if desired
+==========
+0% complete
+==========
+Author: Ajit Pai
+Sample number: 1
+" I’ve had the honor of serving as the Chairman of the Federal Communication"...
+Warning: fragment 493 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 649 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 516 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Authorship similarity:
+  1. Kevin Hassett: 1
+  2. Andrew Wheeler: 0.95774
+  3. Fiona Hill: 0.90115
+  4. John Bolton: 0.8157
+  5. Mike Pence: 0.78276
+  6. Ajit Pai: 0.77703
+  7. John Sullivan: 0.73785
+  8. Nikki Haley: 0.73105
+  9. Rick Perry: 0.72744
+  10. Steven Mnuchin: 0.69491
+  11. Linda McMahon: 0.6795
+  12. Ryan Zinke: 0.66173
+  13. Mike Pompeo: 0.65441
+  14. Jared Kushner: 0.63304
+  15. Betsy DeVos: 0.62416
+  16. Raj Shah: 0.61747
+  17. Elaine Chao: 0.6087
+  18. Robert Lighthizer: 0.58906
+  19. Dan Coats: 0.58308
+  20. Robert Wilkie: 0.58285
+  21. Larry Kudlow: 0.56316
+  22. Mick Mulvaney: 0.56142
+  23. John Kelly: 0.52737
+  24. Jim Mattis: 0.50219
+  25. Ivanka Trump: 0.49072
+  26. Alexander Acosta: 0.47262
+  27. Joseph Simons: 0.46472
+  28. Jon Huntsman: 0.46414
+  29. Sonny Perdue: 0.46266
+  30. Gina Haspel: 0.44178
+  31. Kellyanne Conway: 0.39224
+  32. Alex Azar: 0.37122
+  33. Wilbur Ross: 0.34866
+  34. Ben Carson: 0.29239
+  35. Jeff Sessions: 0.27562
+  36. Kirstjen Nielsen: 0.051444
+  37. Melania Trump: 0
+Incorrect: actual author ranked in position 6
+==========
+0.5% complete
+==========
+Author: Ajit Pai
+Sample number: 2
+" In my first remarks as Chairman of the Federal Communications Commission t"...
+Warning: fragment 493 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 649 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 516 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Authorship similarity:
+  1. Kevin Hassett: 1
+  2. Andrew Wheeler: 0.93969
+  3. Fiona Hill: 0.93217
+  4. John Bolton: 0.83378
+  5. Mike Pence: 0.76975
+  6. Nikki Haley: 0.75001
+  7. Rick Perry: 0.73011
+  8. John Sullivan: 0.70467
+  9. Ryan Zinke: 0.68949
+  10. Mike Pompeo: 0.66409
+  11. Linda McMahon: 0.65739
+  12. Jared Kushner: 0.65519
+  13. Steven Mnuchin: 0.62455
+  14. Betsy DeVos: 0.62223
+  15. Elaine Chao: 0.61364
+  16. Dan Coats: 0.59205
+  17. Raj Shah: 0.58505
+  18. John Kelly: 0.56082
+  19. Robert Lighthizer: 0.56068
+  20. Larry Kudlow: 0.55732
+  21. Ajit Pai: 0.55554
+  22. Mick Mulvaney: 0.54621
+  23. Robert Wilkie: 0.54357
+  24. Jim Mattis: 0.51588
+  25. Gina Haspel: 0.4912
+  26. Ivanka Trump: 0.47006
+  27. Joseph Simons: 0.46983
+  28. Jon Huntsman: 0.46382
+  29. Alexander Acosta: 0.43315
+  30. Sonny Perdue: 0.40901
+  31. Kellyanne Conway: 0.39286
+  32. Alex Azar: 0.35362
+  33. Wilbur Ross: 0.34325
+  34. Jeff Sessions: 0.31223
+  35. Ben Carson: 0.29252
+  36. Kirstjen Nielsen: 0.031785
+  37. Melania Trump: 0
+Incorrect: actual author ranked in position 21
+==========
+0.9% complete
+==========
+Author: Ajit Pai
+Sample number: 3
+" Yesterday, I delivered remarks announcing my plans to repeal the Commissio"...
+Warning: fragment 493 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 649 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 516 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Authorship similarity:
+  1. Kevin Hassett: 1
+  2. Andrew Wheeler: 0.96147
+  3. Fiona Hill: 0.90364
+  4. Ajit Pai: 0.86091
+  5. John Bolton: 0.83045
+  6. Mike Pence: 0.77155
+  7. Rick Perry: 0.72411
+  8. Nikki Haley: 0.71165
+  9. John Sullivan: 0.70834
+  10. Steven Mnuchin: 0.70239
+  11. Jared Kushner: 0.6602
+  12. Ryan Zinke: 0.65947
+  13. Linda McMahon: 0.65014
+  14. Mike Pompeo: 0.64977
+  15. Betsy DeVos: 0.60763
+  16. Robert Lighthizer: 0.60617
+  17. Elaine Chao: 0.60404
+  18. Dan Coats: 0.57589
+  19. Raj Shah: 0.57557
+  20. Mick Mulvaney: 0.55832
+  21. Larry Kudlow: 0.54456
+  22. John Kelly: 0.54104
+  23. Robert Wilkie: 0.53901
+  24. Jim Mattis: 0.51116
+  25. Ivanka Trump: 0.47765
+  26. Jon Huntsman: 0.45988
+  27. Joseph Simons: 0.45709
+  28. Gina Haspel: 0.44111
+  29. Sonny Perdue: 0.43787
+  30. Alexander Acosta: 0.40646
+  31. Alex Azar: 0.3837
+  32. Kellyanne Conway: 0.34753
+  33. Ben Carson: 0.34389
+  34. Wilbur Ross: 0.31711
+  35. Jeff Sessions: 0.27704
+  36. Melania Trump: 0.012594
+  37. Kirstjen Nielsen: 0
+Incorrect: actual author ranked in position 4
+==========
+1.4% complete
+==========
+Author: Ajit Pai
+Sample number: 4
+" You may never need them, but if you do, they’ll be there. It’s that bedroc"...
+Warning: fragment 493 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 649 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 516 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Authorship similarity:
+  1. Kevin Hassett: 1
+  2. Andrew Wheeler: 0.96477
+  3. Fiona Hill: 0.923
+  4. Ajit Pai: 0.92197
+  5. John Bolton: 0.83362
+  6. Mike Pence: 0.81029
+  7. Nikki Haley: 0.80102
+  8. Rick Perry: 0.76181
+  9. John Sullivan: 0.75876
+  10. Steven Mnuchin: 0.74247
+  11. Jared Kushner: 0.72086
+  12. Mike Pompeo: 0.70742
+  13. Ryan Zinke: 0.6994
+  14. Linda McMahon: 0.65782
+  15. Betsy DeVos: 0.65068
+  16. Robert Wilkie: 0.6426
+  17. Raj Shah: 0.63743
+  18. Robert Lighthizer: 0.62978
+  19. Elaine Chao: 0.6168
+  20. Dan Coats: 0.61486
+  21. John Kelly: 0.61462
+  22. Mick Mulvaney: 0.6032
+  23. Jim Mattis: 0.57982
+  24. Gina Haspel: 0.52113
+  25. Ivanka Trump: 0.51861
+  26. Larry Kudlow: 0.51229
+  27. Alexander Acosta: 0.4736
+  28. Jon Huntsman: 0.47158
+  29. Sonny Perdue: 0.46568
+  30. Joseph Simons: 0.45214
+  31. Kellyanne Conway: 0.42118
+  32. Alex Azar: 0.37788
+  33. Jeff Sessions: 0.35864
+  34. Ben Carson: 0.33843
+  35. Wilbur Ross: 0.28334
+  36. Kirstjen Nielsen: 0.031123
+  37. Melania Trump: 0
+Incorrect: actual author ranked in position 4
+==========
+1.8% complete
+==========
+Author: Ajit Pai
+Sample number: 5
+" My post introducing the FCC’s infrastructure initiatives a few weeks ago m"...
+Warning: fragment 493 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 649 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 516 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Authorship similarity:
+  1. Kevin Hassett: 1
+  2. Andrew Wheeler: 0.97456
+  3. Fiona Hill: 0.96366
+  4. John Sullivan: 0.82789
+  5. Mike Pence: 0.8217
+  6. John Bolton: 0.81861
+  7. Rick Perry: 0.77277
+  8. Steven Mnuchin: 0.72219
+  9. Ryan Zinke: 0.71063
+  10. Nikki Haley: 0.69498
+  11. Raj Shah: 0.68984
+  12. Elaine Chao: 0.66905
+  13. Jared Kushner: 0.6641
+  14. Mike Pompeo: 0.65725
+  15. Robert Lighthizer: 0.65174
+  16. Ajit Pai: 0.65011
+  17. Linda McMahon: 0.6478
+  18. Betsy DeVos: 0.63363
+  19. Robert Wilkie: 0.62127
+  20. Dan Coats: 0.61165
+  21. Jim Mattis: 0.55954
+  22. John Kelly: 0.54864
+  23. Larry Kudlow: 0.52848
+  24. Jon Huntsman: 0.5257
+  25. Mick Mulvaney: 0.51382
+  26. Ivanka Trump: 0.49439
+  27. Joseph Simons: 0.48069
+  28. Sonny Perdue: 0.43697
+  29. Gina Haspel: 0.42643
+  30. Alexander Acosta: 0.41071
+  31. Kellyanne Conway: 0.38854
+  32. Alex Azar: 0.3198
+  33. Ben Carson: 0.30651
+  34. Wilbur Ross: 0.30537
+  35. Jeff Sessions: 0.26751
+  36. Kirstjen Nielsen: 0.0061957
+  37. Melania Trump: 0
+Incorrect: actual author ranked in position 16
+==========
+2.3% complete
+==========
+Author: Ajit Pai
+Sample number: 6
+" Americans are reaping the benefits of rapid and exciting changes in the wa"...
+Warning: fragment 493 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 649 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 516 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Authorship similarity:
+  1. Ajit Pai: 1
+  2. Kevin Hassett: 0.97406
+  3. Andrew Wheeler: 0.93138
+  4. Fiona Hill: 0.92267
+  5. John Bolton: 0.78734
+  6. Mike Pence: 0.76959
+  7. Nikki Haley: 0.76376
+  8. John Sullivan: 0.73279
+  9. Rick Perry: 0.73178
+  10. Steven Mnuchin: 0.70289
+  11. Linda McMahon: 0.68862
+  12. John Kelly: 0.67197
+  13. Ryan Zinke: 0.67143
+  14. Mike Pompeo: 0.64776
+  15. Elaine Chao: 0.6353
+  16. Raj Shah: 0.62682
+  17. Jared Kushner: 0.62147
+  18. Jim Mattis: 0.61735
+  19. Robert Wilkie: 0.61664
+  20. Robert Lighthizer: 0.60883
+  21. Betsy DeVos: 0.60139
+  22. Mick Mulvaney: 0.59678
+  23. Dan Coats: 0.57862
+  24. Larry Kudlow: 0.52027
+  25. Ivanka Trump: 0.48984
+  26. Alexander Acosta: 0.47587
+  27. Jon Huntsman: 0.4671
+  28. Gina Haspel: 0.46521
+  29. Alex Azar: 0.44301
+  30. Ben Carson: 0.43427
+  31. Sonny Perdue: 0.42471
+  32. Kellyanne Conway: 0.40629
+  33. Joseph Simons: 0.40317
+  34. Jeff Sessions: 0.32326
+  35. Wilbur Ross: 0.25709
+  36. Kirstjen Nielsen: 0.045136
+  37. Melania Trump: 0
+Correct: actual author ranked in position 1
+==========
+2.7% complete
+==========
+Author: Ajit Pai
+Sample number: 7
+" This week, I had the opportunity to travel to Texas to survey the damage c"...
+Warning: fragment 493 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 649 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 516 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Authorship similarity:
+  1. Kevin Hassett: 1
+  2. Andrew Wheeler: 0.9527
+  3. Ajit Pai: 0.91405
+  4. Fiona Hill: 0.89087
+  5. John Bolton: 0.82113
+  6. Mike Pence: 0.79012
+  7. Nikki Haley: 0.74898
+  8. John Sullivan: 0.74524
+  9. Rick Perry: 0.74384
+  10. Steven Mnuchin: 0.71483
+  11. Ryan Zinke: 0.70832
+  12. Linda McMahon: 0.67108
+  13. Mike Pompeo: 0.66211
+  14. Jared Kushner: 0.65079
+  15. Elaine Chao: 0.64567
+  16. Raj Shah: 0.63517
+  17. Betsy DeVos: 0.62511
+  18. Robert Lighthizer: 0.61941
+  19. Robert Wilkie: 0.60819
+  20. Dan Coats: 0.59904
+  21. Mick Mulvaney: 0.56984
+  22. John Kelly: 0.53472
+  23. Larry Kudlow: 0.52599
+  24. Jim Mattis: 0.5162
+  25. Joseph Simons: 0.50018
+  26. Ivanka Trump: 0.49396
+  27. Jon Huntsman: 0.48137
+  28. Gina Haspel: 0.47535
+  29. Sonny Perdue: 0.46815
+  30. Alexander Acosta: 0.44905
+  31. Kellyanne Conway: 0.40436
+  32. Alex Azar: 0.37333
+  33. Wilbur Ross: 0.35591
+  34. Jeff Sessions: 0.32879
+  35. Ben Carson: 0.31996
+  36. Kirstjen Nielsen: 0.067591
+  37. Melania Trump: 0
+Incorrect: actual author ranked in position 3
+==========
+3.2% complete
+==========
+Author: Ajit Pai
+Sample number: 8
+" Tomorrow is Groundhog Day. Fittingly, I’m announcing an agenda for the Com"...
+Warning: fragment 493 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 649 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 516 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Authorship similarity:
+  1. Kevin Hassett: 1
+  2. Andrew Wheeler: 0.9103
+  3. Fiona Hill: 0.90397
+  4. Ajit Pai: 0.87604
+  5. John Bolton: 0.80176
+  6. Mike Pence: 0.76101
+  7. Rick Perry: 0.74897
+  8. John Sullivan: 0.73343
+  9. Nikki Haley: 0.72622
+  10. Ryan Zinke: 0.69238
+  11. Linda McMahon: 0.66927
+  12. Steven Mnuchin: 0.65926
+  13. Elaine Chao: 0.65488
+  14. Mike Pompeo: 0.63424
+  15. Jared Kushner: 0.63303
+  16. Betsy DeVos: 0.60566
+  17. Raj Shah: 0.59312
+  18. Dan Coats: 0.58909
+  19. Robert Lighthizer: 0.58679
+  20. Mick Mulvaney: 0.57736
+  21. Robert Wilkie: 0.55908
+  22. Jim Mattis: 0.54202
+  23. John Kelly: 0.53792
+  24. Larry Kudlow: 0.52683
+  25. Jon Huntsman: 0.49864
+  26. Joseph Simons: 0.47584
+  27. Gina Haspel: 0.47221
+  28. Alexander Acosta: 0.47213
+  29. Ivanka Trump: 0.46902
+  30. Sonny Perdue: 0.41689
+  31. Alex Azar: 0.40225
+  32. Kellyanne Conway: 0.37923
+  33. Wilbur Ross: 0.33173
+  34. Ben Carson: 0.31099
+  35. Jeff Sessions: 0.31063
+  36. Melania Trump: 0.0028697
+  37. Kirstjen Nielsen: 0
+Incorrect: actual author ranked in position 4
+==========
+3.6% complete
+==========
+Author: Ajit Pai
+Sample number: 9
+" Earlier this week, I was in Barcelona for the mobile industry’s largest gl"...
+Warning: fragment 493 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 649 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 516 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Authorship similarity:
+  1. Kevin Hassett: 1
+  2. Andrew Wheeler: 0.93492
+  3. Fiona Hill: 0.90493
+  4. Ajit Pai: 0.89544
+  5. John Bolton: 0.80332
+  6. Mike Pence: 0.77559
+  7. Nikki Haley: 0.75998
+  8. John Sullivan: 0.73998
+  9. Rick Perry: 0.73671
+  10. Steven Mnuchin: 0.6931
+  11. Ryan Zinke: 0.68555
+  12. Linda McMahon: 0.67639
+  13. Jared Kushner: 0.65762
+  14. Elaine Chao: 0.65398
+  15. Mike Pompeo: 0.65375
+  16. Raj Shah: 0.62504
+  17. Betsy DeVos: 0.61893
+  18. John Kelly: 0.59409
+  19. Mick Mulvaney: 0.58474
+  20. Robert Lighthizer: 0.57587
+  21. Larry Kudlow: 0.57566
+  22. Robert Wilkie: 0.56093
+  23. Dan Coats: 0.55974
+  24. Jim Mattis: 0.54782
+  25. Ivanka Trump: 0.50421
+  26. Gina Haspel: 0.46907
+  27. Jon Huntsman: 0.46814
+  28. Alexander Acosta: 0.4475
+  29. Sonny Perdue: 0.44295
+  30. Joseph Simons: 0.42924
+  31. Kellyanne Conway: 0.40018
+  32. Alex Azar: 0.3525
+  33. Wilbur Ross: 0.3293
+  34. Ben Carson: 0.31638
+  35. Jeff Sessions: 0.26179
+  36. Kirstjen Nielsen: 0.011416
+  37. Melania Trump: 0
+Incorrect: actual author ranked in position 4
+==========
+4.1% complete
+==========
+Author: Alex Azar
+Sample number: 1
+" For all the discussion of Obamacare since its passage, it is too rarely kn"...
+Warning: fragment 493 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 649 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 516 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Authorship similarity:
+  1. Alex Azar: 1
+  2. Kevin Hassett: 0.9501
+  3. Fiona Hill: 0.92193
+  4. Andrew Wheeler: 0.8528
+  5. John Bolton: 0.76205
+  6. Mike Pence: 0.74417
+  7. Rick Perry: 0.69581
+  8. Nikki Haley: 0.69514
+  9. Linda McMahon: 0.67122
+  10. John Sullivan: 0.66647
+  11. Steven Mnuchin: 0.6211
+  12. Mike Pompeo: 0.62099
+  13. Ryan Zinke: 0.60888
+  14. Mick Mulvaney: 0.60423
+  15. Betsy DeVos: 0.58253
+  16. Jared Kushner: 0.57207
+  17. Ajit Pai: 0.54896
+  18. Elaine Chao: 0.5439
+  19. Larry Kudlow: 0.5328
+  20. Jim Mattis: 0.52825
+  21. Robert Wilkie: 0.52752
+  22. Raj Shah: 0.52547
+  23. John Kelly: 0.51838
+  24. Robert Lighthizer: 0.4965
+  25. Dan Coats: 0.47546
+  26. Alexander Acosta: 0.46957
+  27. Jon Huntsman: 0.45601
+  28. Ivanka Trump: 0.42468
+  29. Gina Haspel: 0.40271
+  30. Sonny Perdue: 0.39985
+  31. Kellyanne Conway: 0.38934
+  32. Wilbur Ross: 0.37255
+  33. Jeff Sessions: 0.34105
+  34. Joseph Simons: 0.33503
+  35. Ben Carson: 0.31906
+  36. Kirstjen Nielsen: 0.10908
+  37. Melania Trump: 0
+Correct: actual author ranked in position 1
+==========
+4.5% complete
+==========
+Author: Alex Azar
+Sample number: 2
+" Our comprehensive strategy for the opioid crisis, grounded in the best sci"...
+Warning: fragment 493 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 649 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 516 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Authorship similarity:
+  1. Fiona Hill: 1
+  2. Kevin Hassett: 0.99795
+  3. Andrew Wheeler: 0.91468
+  4. John Bolton: 0.83528
+  5. Mike Pence: 0.81163
+  6. John Sullivan: 0.80636
+  7. Rick Perry: 0.80242
+  8. Nikki Haley: 0.76609
+  9. Linda McMahon: 0.74867
+  10. Betsy DeVos: 0.7276
+  11. Steven Mnuchin: 0.70684
+  12. Ryan Zinke: 0.69964
+  13. Mike Pompeo: 0.69318
+  14. Robert Wilkie: 0.67095
+  15. Elaine Chao: 0.6704
+  16. Jared Kushner: 0.64523
+  17. Alexander Acosta: 0.62261
+  18. Raj Shah: 0.58392
+  19. Jim Mattis: 0.57268
+  20. Dan Coats: 0.57108
+  21. Larry Kudlow: 0.56357
+  22. Ajit Pai: 0.55614
+  23. Robert Lighthizer: 0.55584
+  24. John Kelly: 0.54467
+  25. Jon Huntsman: 0.54227
+  26. Ivanka Trump: 0.53986
+  27. Jeff Sessions: 0.52956
+  28. Mick Mulvaney: 0.52427
+  29. Kellyanne Conway: 0.51686
+  30. Sonny Perdue: 0.47013
+  31. Gina Haspel: 0.46105
+  32. Alex Azar: 0.43913
+  33. Joseph Simons: 0.42177
+  34. Wilbur Ross: 0.39684
+  35. Ben Carson: 0.32632
+  36. Kirstjen Nielsen: 0.066843
+  37. Melania Trump: 0
+Incorrect: actual author ranked in position 32
+==========
+5% complete
+==========
+Author: Alex Azar
+Sample number: 3
+" Obamacare forgot about you. But Trump didn’t. For all the discussion of Ob"...
+Warning: fragment 493 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 649 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 516 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Authorship similarity:
+  1. Alex Azar: 1
+  2. Kevin Hassett: 0.93881
+  3. Fiona Hill: 0.90557
+  4. Andrew Wheeler: 0.83558
+  5. John Bolton: 0.74454
+  6. Mike Pence: 0.73721
+  7. Nikki Haley: 0.69139
+  8. Rick Perry: 0.68805
+  9. Linda McMahon: 0.66163
+  10. John Sullivan: 0.65807
+  11. Mike Pompeo: 0.62072
+  12. Steven Mnuchin: 0.61912
+  13. Ryan Zinke: 0.60183
+  14. Mick Mulvaney: 0.59319
+  15. Jared Kushner: 0.56869
+  16. Betsy DeVos: 0.56555
+  17. Ajit Pai: 0.54034
+  18. Elaine Chao: 0.53697
+  19. Jim Mattis: 0.52532
+  20. Robert Wilkie: 0.52505
+  21. Larry Kudlow: 0.52302
+  22. Raj Shah: 0.51925
+  23. John Kelly: 0.5061
+  24. Robert Lighthizer: 0.50266
+  25. Dan Coats: 0.47598
+  26. Alexander Acosta: 0.46932
+  27. Jon Huntsman: 0.45743
+  28. Ivanka Trump: 0.41701
+  29. Gina Haspel: 0.39922
+  30. Sonny Perdue: 0.39668
+  31. Kellyanne Conway: 0.3953
+  32. Wilbur Ross: 0.37646
+  33. Jeff Sessions: 0.33468
+  34. Joseph Simons: 0.33243
+  35. Ben Carson: 0.3156
+  36. Kirstjen Nielsen: 0.11718
+  37. Melania Trump: 0
+Correct: actual author ranked in position 1
+==========
+5.4% complete
+==========
+Author: Alexander Acosta
+Sample number: 1
+" The opioid crisis felt across our nation has claimed too many communities,"...
+Warning: fragment 493 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 649 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 516 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Authorship similarity:
+  1. Kevin Hassett: 1
+  2. Fiona Hill: 0.98675
+  3. Andrew Wheeler: 0.90615
+  4. John Sullivan: 0.81597
+  5. John Bolton: 0.8
+  6. Mike Pence: 0.79756
+  7. Rick Perry: 0.7622
+  8. Nikki Haley: 0.71568
+  9. Linda McMahon: 0.68871
+  10. Betsy DeVos: 0.67456
+  11. Robert Wilkie: 0.66891
+  12. Steven Mnuchin: 0.66877
+  13. Ryan Zinke: 0.65273
+  14. Alexander Acosta: 0.64536
+  15. Mike Pompeo: 0.64444
+  16. Jared Kushner: 0.62384
+  17. Robert Lighthizer: 0.59666
+  18. Elaine Chao: 0.5848
+  19. Raj Shah: 0.58049
+  20. Larry Kudlow: 0.57293
+  21. Ajit Pai: 0.55713
+  22. Dan Coats: 0.55553
+  23. Jim Mattis: 0.52121
+  24. Jon Huntsman: 0.52027
+  25. Alex Azar: 0.51903
+  26. Ivanka Trump: 0.50783
+  27. Mick Mulvaney: 0.5063
+  28. John Kelly: 0.49877
+  29. Joseph Simons: 0.4683
+  30. Gina Haspel: 0.46475
+  31. Kellyanne Conway: 0.44141
+  32. Sonny Perdue: 0.43429
+  33. Jeff Sessions: 0.42372
+  34. Wilbur Ross: 0.37902
+  35. Ben Carson: 0.31993
+  36. Kirstjen Nielsen: 0.11521
+  37. Melania Trump: 0
+Incorrect: actual author ranked in position 14
+==========
+5.9% complete
+==========
+Author: Alexander Acosta
+Sample number: 2
+" On Labor Day, we celebrate the accomplishments of the American workforce, "...
+Warning: fragment 493 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 649 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 516 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Authorship similarity:
+  1. Fiona Hill: 1
+  2. Kevin Hassett: 0.99915
+  3. Andrew Wheeler: 0.93366
+  4. Mike Pence: 0.85267
+  5. Linda McMahon: 0.84164
+  6. John Bolton: 0.828
+  7. John Sullivan: 0.7653
+  8. Steven Mnuchin: 0.75229
+  9. Rick Perry: 0.74912
+  10. Nikki Haley: 0.73684
+  11. Mike Pompeo: 0.68911
+  12. Ryan Zinke: 0.67896
+  13. Betsy DeVos: 0.64451
+  14. Jared Kushner: 0.6299
+  15. Elaine Chao: 0.6232
+  16. Mick Mulvaney: 0.60992
+  17. Larry Kudlow: 0.59367
+  18. Robert Wilkie: 0.58464
+  19. Dan Coats: 0.56896
+  20. Raj Shah: 0.55913
+  21. Robert Lighthizer: 0.55895
+  22. Alexander Acosta: 0.54991
+  23. Ajit Pai: 0.54812
+  24. Jon Huntsman: 0.52677
+  25. Ivanka Trump: 0.5156
+  26. Jim Mattis: 0.51526
+  27. John Kelly: 0.51285
+  28. Sonny Perdue: 0.51235
+  29. Wilbur Ross: 0.47974
+  30. Joseph Simons: 0.46512
+  31. Alex Azar: 0.44567
+  32. Kellyanne Conway: 0.43382
+  33. Gina Haspel: 0.41964
+  34. Jeff Sessions: 0.34833
+  35. Ben Carson: 0.31042
+  36. Kirstjen Nielsen: 0.11371
+  37. Melania Trump: 0
+Incorrect: actual author ranked in position 22
+==========
+6.3% complete
+==========
+Author: Alexander Acosta
+Sample number: 3
+" President Trump has issued an executive order to strengthen retirement sec"...
+Warning: fragment 493 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 649 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 516 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Authorship similarity:
+  1. Fiona Hill: 1
+  2. Kevin Hassett: 0.99794
+  3. Andrew Wheeler: 0.88455
+  4. Linda McMahon: 0.85865
+  5. Mike Pence: 0.80026
+  6. John Bolton: 0.78159
+  7. John Sullivan: 0.76359
+  8. Rick Perry: 0.75617
+  9. Steven Mnuchin: 0.75259
+  10. Alexander Acosta: 0.71553
+  11. Nikki Haley: 0.70165
+  12. Mike Pompeo: 0.66999
+  13. Ryan Zinke: 0.62524
+  14. Larry Kudlow: 0.6102
+  15. Betsy DeVos: 0.60245
+  16. Jared Kushner: 0.58057
+  17. Dan Coats: 0.56109
+  18. Ivanka Trump: 0.55513
+  19. Elaine Chao: 0.54342
+  20. Jim Mattis: 0.53874
+  21. Mick Mulvaney: 0.53552
+  22. Jon Huntsman: 0.5267
+  23. Ajit Pai: 0.51595
+  24. John Kelly: 0.51036
+  25. Robert Lighthizer: 0.50911
+  26. Robert Wilkie: 0.50567
+  27. Raj Shah: 0.49583
+  28. Alex Azar: 0.4475
+  29. Sonny Perdue: 0.42138
+  30. Wilbur Ross: 0.40253
+  31. Joseph Simons: 0.36026
+  32. Kellyanne Conway: 0.35643
+  33. Gina Haspel: 0.33471
+  34. Jeff Sessions: 0.27872
+  35. Ben Carson: 0.2771
+  36. Kirstjen Nielsen: 0.078654
+  37. Melania Trump: 0
+Incorrect: actual author ranked in position 10
+==========
+6.8% complete
+==========
+Author: Andrew Wheeler
+Sample number: 1
+" Every four or eight years the United States goes through a presidential tr"...
+Warning: fragment 493 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 649 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 516 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Authorship similarity:
+  1. Kevin Hassett: 1
+  2. Fiona Hill: 0.95668
+  3. Andrew Wheeler: 0.89468
+  4. John Bolton: 0.83113
+  5. Mike Pence: 0.75813
+  6. Linda McMahon: 0.67966
+  7. Rick Perry: 0.6767
+  8. John Sullivan: 0.6606
+  9. Nikki Haley: 0.65982
+  10. Steven Mnuchin: 0.61812
+  11. Mike Pompeo: 0.60601
+  12. Ryan Zinke: 0.60317
+  13. Jared Kushner: 0.57595
+  14. Elaine Chao: 0.57588
+  15. Larry Kudlow: 0.57576
+  16. Raj Shah: 0.5663
+  17. Betsy DeVos: 0.5645
+  18. Dan Coats: 0.51632
+  19. John Kelly: 0.50422
+  20. Robert Lighthizer: 0.50142
+  21. Robert Wilkie: 0.50063
+  22. Mick Mulvaney: 0.48894
+  23. Jim Mattis: 0.48331
+  24. Ajit Pai: 0.47593
+  25. Joseph Simons: 0.43798
+  26. Ivanka Trump: 0.42229
+  27. Gina Haspel: 0.4118
+  28. Sonny Perdue: 0.40639
+  29. Jon Huntsman: 0.40354
+  30. Alexander Acosta: 0.39993
+  31. Kellyanne Conway: 0.35806
+  32. Wilbur Ross: 0.35536
+  33. Alex Azar: 0.31442
+  34. Ben Carson: 0.27888
+  35. Jeff Sessions: 0.27719
+  36. Kirstjen Nielsen: 0.040478
+  37. Melania Trump: 0
+Incorrect: actual author ranked in position 3
+==========
+7.2% complete
+==========
+Author: Andrew Wheeler
+Sample number: 2
+" The U.S. Department of Energy released its Quadrennial Energy Review on Ap"...
+Warning: fragment 493 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 649 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 516 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Authorship similarity:
+  1. Kevin Hassett: 1
+  2. Andrew Wheeler: 0.99005
+  3. Fiona Hill: 0.96843
+  4. John Bolton: 0.82317
+  5. Mike Pence: 0.77848
+  6. Rick Perry: 0.72259
+  7. John Sullivan: 0.71655
+  8. Nikki Haley: 0.69458
+  9. Linda McMahon: 0.69132
+  10. Steven Mnuchin: 0.65527
+  11. Ryan Zinke: 0.6504
+  12. Mike Pompeo: 0.62903
+  13. Elaine Chao: 0.62855
+  14. Betsy DeVos: 0.6042
+  15. Jared Kushner: 0.59733
+  16. Larry Kudlow: 0.57519
+  17. Raj Shah: 0.56326
+  18. Dan Coats: 0.54536
+  19. Robert Lighthizer: 0.54331
+  20. Robert Wilkie: 0.53933
+  21. Mick Mulvaney: 0.51143
+  22. John Kelly: 0.50862
+  23. Ajit Pai: 0.50835
+  24. Jim Mattis: 0.49908
+  25. Joseph Simons: 0.48558
+  26. Jon Huntsman: 0.45161
+  27. Alexander Acosta: 0.44518
+  28. Sonny Perdue: 0.4431
+  29. Ivanka Trump: 0.43825
+  30. Gina Haspel: 0.43179
+  31. Wilbur Ross: 0.3699
+  32. Kellyanne Conway: 0.36737
+  33. Alex Azar: 0.32141
+  34. Ben Carson: 0.28664
+  35. Jeff Sessions: 0.25818
+  36. Kirstjen Nielsen: 0.09317
+  37. Melania Trump: 0
+Incorrect: actual author ranked in position 2
+==========
+7.7% complete
+==========
+Author: Andrew Wheeler
+Sample number: 3
+" On Jan. 29, 2015, the U.S. Senate passed the Keystone XL Pipeline Approval"...
+Warning: fragment 493 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 649 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 516 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Authorship similarity:
+  1. Andrew Wheeler: 1
+  2. Kevin Hassett: 0.95742
+  3. Fiona Hill: 0.93426
+  4. John Bolton: 0.82164
+  5. Mike Pence: 0.75839
+  6. Rick Perry: 0.71624
+  7. Nikki Haley: 0.6818
+  8. John Sullivan: 0.67743
+  9. Ryan Zinke: 0.65397
+  10. Linda McMahon: 0.64083
+  11. Steven Mnuchin: 0.63395
+  12. Mike Pompeo: 0.63342
+  13. Jared Kushner: 0.60563
+  14. Betsy DeVos: 0.59419
+  15. Elaine Chao: 0.58792
+  16. Larry Kudlow: 0.57361
+  17. Raj Shah: 0.55527
+  18. Dan Coats: 0.52644
+  19. Mick Mulvaney: 0.52191
+  20. Robert Lighthizer: 0.52185
+  21. John Kelly: 0.51032
+  22. Ajit Pai: 0.49837
+  23. Jim Mattis: 0.4821
+  24. Robert Wilkie: 0.48067
+  25. Joseph Simons: 0.46275
+  26. Jon Huntsman: 0.44456
+  27. Ivanka Trump: 0.43191
+  28. Gina Haspel: 0.42617
+  29. Sonny Perdue: 0.4098
+  30. Alexander Acosta: 0.39905
+  31. Wilbur Ross: 0.38735
+  32. Kellyanne Conway: 0.36686
+  33. Alex Azar: 0.33023
+  34. Ben Carson: 0.29746
+  35. Jeff Sessions: 0.29021
+  36. Kirstjen Nielsen: 0.072464
+  37. Melania Trump: 0
+Correct: actual author ranked in position 1
+==========
+8.1% complete
+==========
+Author: Ben Carson
+Sample number: 1
+" Thanks to tax reform, deregulation and America’s can-do spirit, our econom"...
+Warning: fragment 493 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 649 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 516 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Authorship similarity:
+  1. Kevin Hassett: 1
+  2. Fiona Hill: 0.94072
+  3. Mike Pence: 0.89145
+  4. John Sullivan: 0.85804
+  5. Nikki Haley: 0.80329
+  6. Linda McMahon: 0.802
+  7. Rick Perry: 0.79959
+  8. Ivanka Trump: 0.75388
+  9. Robert Wilkie: 0.73686
+  10. Steven Mnuchin: 0.73582
+  11. Andrew Wheeler: 0.70027
+  12. John Bolton: 0.6973
+  13. Ryan Zinke: 0.67564
+  14. Mike Pompeo: 0.64383
+  15. Jon Huntsman: 0.54112
+  16. Jim Mattis: 0.53792
+  17. Jared Kushner: 0.5374
+  18. Robert Lighthizer: 0.48392
+  19. Betsy DeVos: 0.46427
+  20. Mick Mulvaney: 0.44567
+  21. Dan Coats: 0.44041
+  22. Raj Shah: 0.42831
+  23. John Kelly: 0.41211
+  24. Alexander Acosta: 0.39838
+  25. Ben Carson: 0.33987
+  26. Larry Kudlow: 0.3384
+  27. Kellyanne Conway: 0.33165
+  28. Sonny Perdue: 0.29778
+  29. Gina Haspel: 0.28946
+  30. Jeff Sessions: 0.25905
+  31. Elaine Chao: 0.25716
+  32. Ajit Pai: 0.21646
+  33. Alex Azar: 0.20387
+  34. Melania Trump: 0.19385
+  35. Wilbur Ross: 0.16119
+  36. Joseph Simons: 0.03473
+  37. Kirstjen Nielsen: 0
+Incorrect: actual author ranked in position 25
+==========
+8.6% complete
+==========
+Author: Ben Carson
+Sample number: 2
+" As much as we are tempted to look away, we cannot deny the obvious human n"...
+Warning: fragment 493 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 649 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 516 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Authorship similarity:
+  1. Kevin Hassett: 1
+  2. Fiona Hill: 0.99573
+  3. Andrew Wheeler: 0.91689
+  4. Mike Pence: 0.83883
+  5. John Bolton: 0.81034
+  6. John Sullivan: 0.77598
+  7. Nikki Haley: 0.75049
+  8. Rick Perry: 0.74827
+  9. Steven Mnuchin: 0.6646
+  10. Mike Pompeo: 0.6564
+  11. Linda McMahon: 0.64747
+  12. Ryan Zinke: 0.64221
+  13. Betsy DeVos: 0.63628
+  14. Jared Kushner: 0.61685
+  15. Elaine Chao: 0.57774
+  16. Raj Shah: 0.5762
+  17. Robert Lighthizer: 0.5734
+  18. Dan Coats: 0.57284
+  19. Robert Wilkie: 0.5699
+  20. Jim Mattis: 0.54754
+  21. Jon Huntsman: 0.52516
+  22. Mick Mulvaney: 0.52268
+  23. John Kelly: 0.5173
+  24. Larry Kudlow: 0.49262
+  25. Ivanka Trump: 0.47203
+  26. Gina Haspel: 0.46514
+  27. Ajit Pai: 0.45243
+  28. Joseph Simons: 0.44024
+  29. Alexander Acosta: 0.43886
+  30. Ben Carson: 0.41834
+  31. Sonny Perdue: 0.38619
+  32. Kellyanne Conway: 0.36946
+  33. Alex Azar: 0.34161
+  34. Jeff Sessions: 0.29531
+  35. Wilbur Ross: 0.28471
+  36. Kirstjen Nielsen: 0.042168
+  37. Melania Trump: 0
+Incorrect: actual author ranked in position 30
+==========
+9% complete
+==========
+Author: Ben Carson
+Sample number: 3
+" As Houston rebuilds in the wake of Hurricane Harvey, the Department of Hou"...
+Warning: fragment 493 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 649 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 516 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Authorship similarity:
+  1. Kevin Hassett: 1
+  2. Fiona Hill: 0.98751
+  3. Andrew Wheeler: 0.96333
+  4. Mike Pence: 0.84788
+  5. John Bolton: 0.80717
+  6. John Sullivan: 0.80546
+  7. Nikki Haley: 0.73018
+  8. Robert Wilkie: 0.71146
+  9. Steven Mnuchin: 0.70068
+  10. Rick Perry: 0.66702
+  11. Mike Pompeo: 0.64661
+  12. Linda McMahon: 0.64529
+  13. Ryan Zinke: 0.61108
+  14. Jared Kushner: 0.60439
+  15. Raj Shah: 0.57425
+  16. Betsy DeVos: 0.55703
+  17. Elaine Chao: 0.54026
+  18. John Kelly: 0.52243
+  19. Jim Mattis: 0.51871
+  20. Dan Coats: 0.51727
+  21. Robert Lighthizer: 0.50251
+  22. Mick Mulvaney: 0.46959
+  23. Kellyanne Conway: 0.46335
+  24. Larry Kudlow: 0.4625
+  25. Ivanka Trump: 0.46239
+  26. Jon Huntsman: 0.37688
+  27. Sonny Perdue: 0.37522
+  28. Joseph Simons: 0.35521
+  29. Alexander Acosta: 0.34061
+  30. Ajit Pai: 0.32116
+  31. Gina Haspel: 0.30274
+  32. Alex Azar: 0.27929
+  33. Jeff Sessions: 0.1496
+  34. Wilbur Ross: 0.13782
+  35. Ben Carson: 0.073768
+  36. Melania Trump: 0.064335
+  37. Kirstjen Nielsen: 0
+Incorrect: actual author ranked in position 35
+==========
+9.5% complete
+==========
+Author: Betsy DeVos
+Sample number: 1
+" The report card is in, and the results are disappointing for families and "...
+Warning: fragment 493 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 649 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 516 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Authorship similarity:
+  1. Fiona Hill: 1
+  2. Kevin Hassett: 0.98052
+  3. Andrew Wheeler: 0.90158
+  4. Betsy DeVos: 0.81587
+  5. John Bolton: 0.79279
+  6. Mike Pence: 0.78959
+  7. John Sullivan: 0.76079
+  8. Nikki Haley: 0.73416
+  9. Rick Perry: 0.71665
+  10. Linda McMahon: 0.69166
+  11. Steven Mnuchin: 0.66468
+  12. Mike Pompeo: 0.64998
+  13. Ryan Zinke: 0.64542
+  14. Jared Kushner: 0.56015
+  15. Elaine Chao: 0.55671
+  16. Larry Kudlow: 0.54495
+  17. Dan Coats: 0.53938
+  18. Robert Wilkie: 0.53295
+  19. Mick Mulvaney: 0.52476
+  20. Raj Shah: 0.51386
+  21. Robert Lighthizer: 0.51205
+  22. Jim Mattis: 0.50356
+  23. Ivanka Trump: 0.48764
+  24. Jon Huntsman: 0.47941
+  25. Ajit Pai: 0.47866
+  26. John Kelly: 0.46257
+  27. Alexander Acosta: 0.45777
+  28. Sonny Perdue: 0.39915
+  29. Joseph Simons: 0.3948
+  30. Gina Haspel: 0.38133
+  31. Kellyanne Conway: 0.37322
+  32. Alex Azar: 0.34347
+  33. Ben Carson: 0.33588
+  34. Wilbur Ross: 0.32865
+  35. Jeff Sessions: 0.27348
+  36. Kirstjen Nielsen: 0.045442
+  37. Melania Trump: 0
+Incorrect: actual author ranked in position 4
+==========
+10% complete
+==========
+Author: Betsy DeVos
+Sample number: 2
+" During our annual Rethink School Tour, I had the pleasure of joining 16 ot"...
+Warning: fragment 493 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 649 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 516 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Authorship similarity:
+  1. Kevin Hassett: 1
+  2. Fiona Hill: 0.99015
+  3. Andrew Wheeler: 0.96163
+  4. John Bolton: 0.81797
+  5. Mike Pence: 0.77475
+  6. Betsy DeVos: 0.73635
+  7. John Sullivan: 0.73206
+  8. Nikki Haley: 0.72954
+  9. Jared Kushner: 0.7255
+  10. Linda McMahon: 0.72189
+  11. Rick Perry: 0.71559
+  12. Ryan Zinke: 0.66147
+  13. Mike Pompeo: 0.63303
+  14. Steven Mnuchin: 0.61838
+  15. John Kelly: 0.60826
+  16. Raj Shah: 0.57993
+  17. Elaine Chao: 0.56133
+  18. Robert Wilkie: 0.55747
+  19. Jim Mattis: 0.55032
+  20. Gina Haspel: 0.54816
+  21. Larry Kudlow: 0.51977
+  22. Dan Coats: 0.5174
+  23. Robert Lighthizer: 0.50582
+  24. Mick Mulvaney: 0.48389
+  25. Ivanka Trump: 0.46488
+  26. Ajit Pai: 0.46411
+  27. Jon Huntsman: 0.45986
+  28. Alexander Acosta: 0.42344
+  29. Kellyanne Conway: 0.40414
+  30. Joseph Simons: 0.39462
+  31. Sonny Perdue: 0.36888
+  32. Alex Azar: 0.28957
+  33. Wilbur Ross: 0.28102
+  34. Ben Carson: 0.25703
+  35. Jeff Sessions: 0.24225
+  36. Kirstjen Nielsen: 0.0055842
+  37. Melania Trump: 0
+Incorrect: actual author ranked in position 6
+==========
+10.4% complete
+==========
+Author: Betsy DeVos
+Sample number: 3
+" The opioid crisis has produced broken families, shattered lives and indesc"...
+Warning: fragment 493 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 649 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 516 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Authorship similarity:
+  1. Kevin Hassett: 1
+  2. Fiona Hill: 0.98573
+  3. Andrew Wheeler: 0.94321
+  4. John Bolton: 0.82935
+  5. Mike Pence: 0.79535
+  6. John Sullivan: 0.744
+  7. Rick Perry: 0.73831
+  8. Nikki Haley: 0.7247
+  9. Linda McMahon: 0.71503
+  10. Ryan Zinke: 0.69619
+  11. Betsy DeVos: 0.66003
+  12. Steven Mnuchin: 0.65738
+  13. Mike Pompeo: 0.64899
+  14. Elaine Chao: 0.60324
+  15. Robert Wilkie: 0.59108
+  16. Raj Shah: 0.58943
+  17. Jared Kushner: 0.5813
+  18. Larry Kudlow: 0.55956
+  19. Dan Coats: 0.5396
+  20. John Kelly: 0.53688
+  21. Jim Mattis: 0.51996
+  22. Robert Lighthizer: 0.51482
+  23. Mick Mulvaney: 0.50731
+  24. Alexander Acosta: 0.49535
+  25. Ajit Pai: 0.46967
+  26. Joseph Simons: 0.46301
+  27. Ivanka Trump: 0.45561
+  28. Jon Huntsman: 0.45245
+  29. Kellyanne Conway: 0.45045
+  30. Gina Haspel: 0.41592
+  31. Sonny Perdue: 0.4079
+  32. Alex Azar: 0.37896
+  33. Jeff Sessions: 0.35729
+  34. Wilbur Ross: 0.35175
+  35. Ben Carson: 0.29213
+  36. Kirstjen Nielsen: 0.075461
+  37. Melania Trump: 0
+Incorrect: actual author ranked in position 11
+==========
+10.9% complete
+==========
+Author: Betsy DeVos
+Sample number: 4
+" There’s a lot we as Americans can learn from other countries and how they "...
+Warning: fragment 493 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 649 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 516 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Authorship similarity:
+  1. Kevin Hassett: 1
+  2. Fiona Hill: 0.99305
+  3. Andrew Wheeler: 0.90191
+  4. John Bolton: 0.8266
+  5. Betsy DeVos: 0.79436
+  6. Mike Pence: 0.79051
+  7. John Sullivan: 0.78407
+  8. Rick Perry: 0.77221
+  9. Nikki Haley: 0.76812
+  10. Mike Pompeo: 0.70416
+  11. Steven Mnuchin: 0.69203
+  12. Linda McMahon: 0.68973
+  13. Jared Kushner: 0.68468
+  14. Ryan Zinke: 0.65799
+  15. John Kelly: 0.65411
+  16. Elaine Chao: 0.63762
+  17. Jim Mattis: 0.63125
+  18. Raj Shah: 0.5942
+  19. Mick Mulvaney: 0.58562
+  20. Larry Kudlow: 0.58352
+  21. Ivanka Trump: 0.57808
+  22. Robert Wilkie: 0.57668
+  23. Robert Lighthizer: 0.56754
+  24. Dan Coats: 0.55585
+  25. Jon Huntsman: 0.55128
+  26. Ajit Pai: 0.53305
+  27. Gina Haspel: 0.51988
+  28. Alexander Acosta: 0.48808
+  29. Kellyanne Conway: 0.44644
+  30. Sonny Perdue: 0.41441
+  31. Joseph Simons: 0.41048
+  32. Alex Azar: 0.38189
+  33. Jeff Sessions: 0.34711
+  34. Ben Carson: 0.34096
+  35. Wilbur Ross: 0.28514
+  36. Kirstjen Nielsen: 0.019394
+  37. Melania Trump: 0
+Incorrect: actual author ranked in position 5
+==========
+11.3% complete
+==========
+Author: Christopher Wray
+Sample number: 1
+" The tragic death of 298 people on board Malaysian Airlines flight 17 in a "...
+Warning: fragment 493 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 649 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 516 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Authorship similarity:
+  1. Dan Coats: 1
+  2. Kevin Hassett: 0.88478
+  3. Fiona Hill: 0.87067
+  4. John Bolton: 0.79615
+  5. Andrew Wheeler: 0.79578
+  6. Mike Pence: 0.72224
+  7. Nikki Haley: 0.71981
+  8. Rick Perry: 0.69561
+  9. John Sullivan: 0.694
+  10. Mike Pompeo: 0.67224
+  11. Steven Mnuchin: 0.61711
+  12. Ryan Zinke: 0.58823
+  13. Linda McMahon: 0.55496
+  14. Raj Shah: 0.54983
+  15. Jared Kushner: 0.5452
+  16. Robert Lighthizer: 0.532
+  17. Betsy DeVos: 0.50474
+  18. Elaine Chao: 0.49531
+  19. Jim Mattis: 0.49075
+  20. Larry Kudlow: 0.48576
+  21. Mick Mulvaney: 0.48108
+  22. Robert Wilkie: 0.46304
+  23. John Kelly: 0.45704
+  24. Jon Huntsman: 0.45243
+  25. Ivanka Trump: 0.44502
+  26. Gina Haspel: 0.38738
+  27. Ajit Pai: 0.38206
+  28. Sonny Perdue: 0.37199
+  29. Kellyanne Conway: 0.36881
+  30. Alexander Acosta: 0.35247
+  31. Joseph Simons: 0.32811
+  32. Jeff Sessions: 0.25618
+  33. Ben Carson: 0.24644
+  34. Wilbur Ross: 0.24258
+  35. Alex Azar: 0.24154
+  36. Melania Trump: 0.034606
+  37. Kirstjen Nielsen: 0
+Correct: actual author ranked in position 1
+==========
+11.8% complete
+==========
+Author: Christopher Wray
+Sample number: 2
+" I would like the American people to know that the intelligence community a"...
+Warning: fragment 493 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 649 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 516 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Authorship similarity:
+  1. Fiona Hill: 1
+  2. Andrew Wheeler: 0.98979
+  3. Kevin Hassett: 0.98017
+  4. John Bolton: 0.89195
+  5. Mike Pence: 0.82454
+  6. John Sullivan: 0.76365
+  7. Dan Coats: 0.75895
+  8. Nikki Haley: 0.708
+  9. Rick Perry: 0.70778
+  10. Mike Pompeo: 0.70182
+  11. Steven Mnuchin: 0.69778
+  12. Ryan Zinke: 0.67363
+  13. Jared Kushner: 0.66686
+  14. Raj Shah: 0.64177
+  15. Linda McMahon: 0.63022
+  16. Betsy DeVos: 0.62892
+  17. Robert Lighthizer: 0.58404
+  18. Robert Wilkie: 0.56354
+  19. Elaine Chao: 0.56114
+  20. Larry Kudlow: 0.51973
+  21. John Kelly: 0.51006
+  22. Jim Mattis: 0.48695
+  23. Joseph Simons: 0.47667
+  24. Mick Mulvaney: 0.46743
+  25. Ajit Pai: 0.45006
+  26. Ivanka Trump: 0.43604
+  27. Jon Huntsman: 0.43277
+  28. Sonny Perdue: 0.41897
+  29. Gina Haspel: 0.40807
+  30. Kellyanne Conway: 0.38358
+  31. Alexander Acosta: 0.37101
+  32. Alex Azar: 0.28349
+  33. Jeff Sessions: 0.28122
+  34. Wilbur Ross: 0.26613
+  35. Ben Carson: 0.25931
+  36. Kirstjen Nielsen: 0.026076
+  37. Melania Trump: 0
+Incorrect: actual author ranked in position 7
+==========
+12.2% complete
+==========
+Author: Christopher Wray
+Sample number: 3
+" I am acutely aware of decisions our country made after the 9/11 attacks. B"...
+Warning: fragment 493 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 649 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 516 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Authorship similarity:
+  1. Fiona Hill: 1
+  2. Kevin Hassett: 0.99938
+  3. Dan Coats: 0.91229
+  4. Andrew Wheeler: 0.90534
+  5. John Bolton: 0.8393
+  6. Mike Pence: 0.81754
+  7. John Sullivan: 0.80726
+  8. Rick Perry: 0.79223
+  9. Nikki Haley: 0.7693
+  10. Ryan Zinke: 0.71384
+  11. Mike Pompeo: 0.70417
+  12. Steven Mnuchin: 0.69694
+  13. Jared Kushner: 0.67988
+  14. Linda McMahon: 0.6776
+  15. Raj Shah: 0.62433
+  16. Robert Wilkie: 0.6157
+  17. Elaine Chao: 0.59409
+  18. Betsy DeVos: 0.57628
+  19. Jim Mattis: 0.57351
+  20. Gina Haspel: 0.56472
+  21. Robert Lighthizer: 0.56301
+  22. John Kelly: 0.5629
+  23. Ivanka Trump: 0.5223
+  24. Jon Huntsman: 0.51506
+  25. Larry Kudlow: 0.46788
+  26. Ajit Pai: 0.43262
+  27. Sonny Perdue: 0.42546
+  28. Mick Mulvaney: 0.41459
+  29. Kellyanne Conway: 0.41142
+  30. Joseph Simons: 0.40401
+  31. Alexander Acosta: 0.40209
+  32. Alex Azar: 0.26525
+  33. Jeff Sessions: 0.25185
+  34. Wilbur Ross: 0.22666
+  35. Ben Carson: 0.22429
+  36. Melania Trump: 0.040442
+  37. Kirstjen Nielsen: 0
+Incorrect: actual author ranked in position 3
+==========
+12.7% complete
+==========
+Author: Dan Coats
+Sample number: 1
+" Today, our country is on the verge of the most significant new development"...
+Warning: fragment 493 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 649 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 516 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Authorship similarity:
+  1. Elaine Chao: 1
+  2. Fiona Hill: 0.78365
+  3. Kevin Hassett: 0.75572
+  4. Andrew Wheeler: 0.71116
+  5. Mike Pence: 0.64389
+  6. Rick Perry: 0.63045
+  7. John Sullivan: 0.62709
+  8. John Bolton: 0.62309
+  9. Nikki Haley: 0.56308
+  10. Ryan Zinke: 0.55552
+  11. Steven Mnuchin: 0.54674
+  12. Linda McMahon: 0.53563
+  13. Mike Pompeo: 0.51671
+  14. Betsy DeVos: 0.48751
+  15. Robert Lighthizer: 0.47153
+  16. Ajit Pai: 0.46898
+  17. Jared Kushner: 0.46288
+  18. Larry Kudlow: 0.45025
+  19. Jim Mattis: 0.4457
+  20. Dan Coats: 0.44466
+  21. Jon Huntsman: 0.44423
+  22. Robert Wilkie: 0.44369
+  23. Raj Shah: 0.43131
+  24. John Kelly: 0.40268
+  25. Mick Mulvaney: 0.39699
+  26. Ivanka Trump: 0.39044
+  27. Gina Haspel: 0.38964
+  28. Alexander Acosta: 0.38222
+  29. Sonny Perdue: 0.37397
+  30. Joseph Simons: 0.34816
+  31. Wilbur Ross: 0.33146
+  32. Kellyanne Conway: 0.31766
+  33. Alex Azar: 0.3003
+  34. Jeff Sessions: 0.27693
+  35. Ben Carson: 0.25646
+  36. Kirstjen Nielsen: 0.14103
+  37. Melania Trump: 0
+Correct: actual author ranked in position 1
+==========
+13.1% complete
+==========
+Author: Dan Coats
+Sample number: 2
+" President Donald Trump has announced a bold, innovative plan for improving"...
+Warning: fragment 493 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 649 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 516 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Authorship similarity:
+  1. Elaine Chao: 1
+  2. Fiona Hill: 0.81227
+  3. Kevin Hassett: 0.78906
+  4. Andrew Wheeler: 0.74663
+  5. John Bolton: 0.65909
+  6. Mike Pence: 0.65113
+  7. Rick Perry: 0.64772
+  8. John Sullivan: 0.63227
+  9. Ryan Zinke: 0.59179
+  10. Nikki Haley: 0.56806
+  11. Steven Mnuchin: 0.56686
+  12. Linda McMahon: 0.56476
+  13. Mike Pompeo: 0.5275
+  14. Dan Coats: 0.51354
+  15. Betsy DeVos: 0.5024
+  16. Larry Kudlow: 0.47512
+  17. Jared Kushner: 0.45675
+  18. Mick Mulvaney: 0.45309
+  19. Jim Mattis: 0.45255
+  20. Jon Huntsman: 0.44424
+  21. Robert Wilkie: 0.43705
+  22. Sonny Perdue: 0.42921
+  23. Ivanka Trump: 0.42827
+  24. Wilbur Ross: 0.4113
+  25. Ajit Pai: 0.40681
+  26. Raj Shah: 0.40509
+  27. Robert Lighthizer: 0.40471
+  28. John Kelly: 0.40145
+  29. Gina Haspel: 0.37079
+  30. Alexander Acosta: 0.34893
+  31. Kellyanne Conway: 0.33176
+  32. Joseph Simons: 0.31529
+  33. Alex Azar: 0.26281
+  34. Jeff Sessions: 0.24683
+  35. Ben Carson: 0.23594
+  36. Kirstjen Nielsen: 0.11145
+  37. Melania Trump: 0
+Correct: actual author ranked in position 1
+==========
+13.6% complete
+==========
+Author: Dan Coats
+Sample number: 3
+" When a Maine fire chief used his hobby drone to drop a life vest to two bo"...
+Warning: fragment 493 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 649 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 516 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Authorship similarity:
+  1. Elaine Chao: 1
+  2. Fiona Hill: 0.80508
+  3. Kevin Hassett: 0.76558
+  4. Andrew Wheeler: 0.73612
+  5. Mike Pence: 0.64054
+  6. John Bolton: 0.63455
+  7. John Sullivan: 0.60278
+  8. Rick Perry: 0.58576
+  9. Steven Mnuchin: 0.54178
+  10. Ryan Zinke: 0.51709
+  11. Nikki Haley: 0.50901
+  12. Mike Pompeo: 0.49342
+  13. Linda McMahon: 0.48747
+  14. Betsy DeVos: 0.4802
+  15. Dan Coats: 0.45424
+  16. Robert Lighthizer: 0.43214
+  17. Ajit Pai: 0.41665
+  18. Jared Kushner: 0.41126
+  19. Jim Mattis: 0.4034
+  20. Larry Kudlow: 0.39655
+  21. Robert Wilkie: 0.39215
+  22. Mick Mulvaney: 0.38799
+  23. Raj Shah: 0.37709
+  24. Jon Huntsman: 0.37674
+  25. Sonny Perdue: 0.37062
+  26. Ivanka Trump: 0.36402
+  27. John Kelly: 0.34854
+  28. Wilbur Ross: 0.32284
+  29. Joseph Simons: 0.31956
+  30. Gina Haspel: 0.31797
+  31. Alexander Acosta: 0.31339
+  32. Alex Azar: 0.26042
+  33. Kellyanne Conway: 0.26
+  34. Ben Carson: 0.21839
+  35. Jeff Sessions: 0.21181
+  36. Kirstjen Nielsen: 0.12101
+  37. Melania Trump: 0
+Correct: actual author ranked in position 1
+==========
+14% complete
+==========
+Author: Dan Coats
+Sample number: 4
+" The news media devoted considerable attention in the last election to the "...
+Warning: fragment 493 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 649 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 516 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Authorship similarity:
+  1. Kevin Hassett: 1
+  2. Elaine Chao: 0.97643
+  3. Fiona Hill: 0.9718
+  4. Andrew Wheeler: 0.91023
+  5. John Bolton: 0.82346
+  6. Mike Pence: 0.77941
+  7. Rick Perry: 0.70289
+  8. Nikki Haley: 0.6987
+  9. John Sullivan: 0.66159
+  10. Linda McMahon: 0.6607
+  11. Mike Pompeo: 0.64716
+  12. Dan Coats: 0.62983
+  13. Steven Mnuchin: 0.62559
+  14. Ryan Zinke: 0.59606
+  15. Jared Kushner: 0.57955
+  16. Larry Kudlow: 0.57819
+  17. Raj Shah: 0.55594
+  18. Betsy DeVos: 0.54702
+  19. John Kelly: 0.54318
+  20. Mick Mulvaney: 0.53218
+  21. Robert Lighthizer: 0.53009
+  22. Jim Mattis: 0.51969
+  23. Jon Huntsman: 0.47827
+  24. Ajit Pai: 0.47206
+  25. Robert Wilkie: 0.46747
+  26. Ivanka Trump: 0.44455
+  27. Sonny Perdue: 0.43247
+  28. Gina Haspel: 0.42683
+  29. Joseph Simons: 0.39123
+  30. Alexander Acosta: 0.38925
+  31. Wilbur Ross: 0.36837
+  32. Kellyanne Conway: 0.3532
+  33. Alex Azar: 0.33286
+  34. Jeff Sessions: 0.28057
+  35. Ben Carson: 0.25719
+  36. Kirstjen Nielsen: 0.086826
+  37. Melania Trump: 0
+Incorrect: actual author ranked in position 2
+==========
+14.5% complete
+==========
+Author: Don McGahn
+Sample number: 1
+" Few issues better illustrate the limits of the Obama administration’s “res"...
+Warning: fragment 493 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 649 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 516 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Authorship similarity:
+  1. Fiona Hill: 1
+  2. Kevin Hassett: 0.88119
+  3. Andrew Wheeler: 0.82668
+  4. John Bolton: 0.79333
+  5. Nikki Haley: 0.71397
+  6. Mike Pence: 0.6998
+  7. Rick Perry: 0.69642
+  8. John Sullivan: 0.64283
+  9. Steven Mnuchin: 0.63939
+  10. Mike Pompeo: 0.63651
+  11. Linda McMahon: 0.6306
+  12. Ryan Zinke: 0.58845
+  13. Jared Kushner: 0.58565
+  14. Elaine Chao: 0.57249
+  15. Betsy DeVos: 0.56626
+  16. Dan Coats: 0.54458
+  17. Raj Shah: 0.52932
+  18. Robert Lighthizer: 0.51227
+  19. Larry Kudlow: 0.5092
+  20. John Kelly: 0.49476
+  21. Mick Mulvaney: 0.47404
+  22. Jim Mattis: 0.46618
+  23. Robert Wilkie: 0.46182
+  24. Gina Haspel: 0.44109
+  25. Ivanka Trump: 0.43319
+  26. Jon Huntsman: 0.41501
+  27. Ajit Pai: 0.38787
+  28. Alexander Acosta: 0.38097
+  29. Joseph Simons: 0.37793
+  30. Sonny Perdue: 0.3709
+  31. Kellyanne Conway: 0.36877
+  32. Wilbur Ross: 0.32399
+  33. Alex Azar: 0.29526
+  34. Ben Carson: 0.28573
+  35. Jeff Sessions: 0.27415
+  36. Melania Trump: 0.032814
+  37. Kirstjen Nielsen: 0
+Correct: actual author ranked in position 1
+==========
+14.9% complete
+==========
+Author: Don McGahn
+Sample number: 2
+" America and Russia headed for their respective coasts in roughly the same "...
+Warning: fragment 493 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 649 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 516 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Authorship similarity:
+  1. Fiona Hill: 1
+  2. Kevin Hassett: 0.96801
+  3. Andrew Wheeler: 0.9101
+  4. John Bolton: 0.76766
+  5. Mike Pence: 0.71992
+  6. Rick Perry: 0.66249
+  7. Nikki Haley: 0.66166
+  8. Linda McMahon: 0.6515
+  9. John Sullivan: 0.63
+  10. Steven Mnuchin: 0.61634
+  11. Ryan Zinke: 0.60148
+  12. Mike Pompeo: 0.57408
+  13. Elaine Chao: 0.56445
+  14. Betsy DeVos: 0.55353
+  15. Jared Kushner: 0.5459
+  16. John Kelly: 0.51738
+  17. Larry Kudlow: 0.51228
+  18. Robert Wilkie: 0.49351
+  19. Raj Shah: 0.49317
+  20. Mick Mulvaney: 0.48457
+  21. Robert Lighthizer: 0.47888
+  22. Jim Mattis: 0.47412
+  23. Dan Coats: 0.46788
+  24. Gina Haspel: 0.41907
+  25. Ivanka Trump: 0.4143
+  26. Ajit Pai: 0.41206
+  27. Alexander Acosta: 0.393
+  28. Joseph Simons: 0.38925
+  29. Jon Huntsman: 0.37529
+  30. Sonny Perdue: 0.35613
+  31. Kellyanne Conway: 0.35326
+  32. Wilbur Ross: 0.31187
+  33. Ben Carson: 0.29689
+  34. Alex Azar: 0.27146
+  35. Jeff Sessions: 0.2479
+  36. Kirstjen Nielsen: 0.019811
+  37. Melania Trump: 0
+Correct: actual author ranked in position 1
+==========
+15.4% complete
+==========
+Author: Don McGahn
+Sample number: 3
+" The Clinton campaign, among others, has accused Vladimir Putin of encourag"...
+Warning: fragment 34 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 115) 
+Warning: fragment 190 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 115) 
+Warning: fragment 493 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 649 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 516 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Authorship similarity:
+  1. Fiona Hill: 1
+  2. Kevin Hassett: 0.8842
+  3. Andrew Wheeler: 0.81482
+  4. John Bolton: 0.7617
+  5. Mike Pence: 0.69639
+  6. Nikki Haley: 0.67222
+  7. Rick Perry: 0.67027
+  8. John Sullivan: 0.64328
+  9. Linda McMahon: 0.63338
+  10. Jared Kushner: 0.6084
+  11. Ryan Zinke: 0.60042
+  12. Mike Pompeo: 0.59011
+  13. Elaine Chao: 0.58822
+  14. Betsy DeVos: 0.58773
+  15. Steven Mnuchin: 0.58641
+  16. Raj Shah: 0.53781
+  17. Robert Lighthizer: 0.53732
+  18. John Kelly: 0.52377
+  19. Dan Coats: 0.5163
+  20. Larry Kudlow: 0.50505
+  21. Mick Mulvaney: 0.49585
+  22. Jim Mattis: 0.47316
+  23. Robert Wilkie: 0.46507
+  24. Ivanka Trump: 0.45676
+  25. Gina Haspel: 0.453
+  26. Jon Huntsman: 0.41307
+  27. Ajit Pai: 0.40153
+  28. Kellyanne Conway: 0.38728
+  29. Alexander Acosta: 0.35869
+  30. Joseph Simons: 0.35491
+  31. Sonny Perdue: 0.3508
+  32. Wilbur Ross: 0.29927
+  33. Jeff Sessions: 0.27017
+  34. Ben Carson: 0.26873
+  35. Alex Azar: 0.26334
+  36. Melania Trump: 0.053441
+  37. Kirstjen Nielsen: 0
+Correct: actual author ranked in position 1
+==========
+15.8% complete
+==========
+Author: Elaine Chao
+Sample number: 1
+" I don't know if I was aware of all of those, but I knew there were -- ther"...
+Warning: fragment 493 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 649 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 516 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Authorship similarity:
+  1. Gina Haspel: 1
+  2. Kevin Hassett: 0.62703
+  3. John Kelly: 0.58362
+  4. Fiona Hill: 0.56094
+  5. Raj Shah: 0.5494
+  6. Andrew Wheeler: 0.54723
+  7. Jared Kushner: 0.54515
+  8. John Bolton: 0.533
+  9. Nikki Haley: 0.50657
+  10. Mike Pence: 0.48921
+  11. Rick Perry: 0.48114
+  12. Jim Mattis: 0.47753
+  13. John Sullivan: 0.4722
+  14. Mike Pompeo: 0.44319
+  15. Ryan Zinke: 0.44209
+  16. Linda McMahon: 0.41496
+  17. Mick Mulvaney: 0.39481
+  18. Steven Mnuchin: 0.38886
+  19. Dan Coats: 0.36985
+  20. Robert Wilkie: 0.36562
+  21. Kellyanne Conway: 0.36159
+  22. Elaine Chao: 0.3584
+  23. Betsy DeVos: 0.35388
+  24. Robert Lighthizer: 0.34982
+  25. Larry Kudlow: 0.3337
+  26. Ivanka Trump: 0.32658
+  27. Jon Huntsman: 0.32278
+  28. Ajit Pai: 0.25011
+  29. Sonny Perdue: 0.20205
+  30. Alexander Acosta: 0.20079
+  31. Ben Carson: 0.18971
+  32. Jeff Sessions: 0.17086
+  33. Joseph Simons: 0.16824
+  34. Wilbur Ross: 0.10852
+  35. Alex Azar: 0.10745
+  36. Melania Trump: 0.055804
+  37. Kirstjen Nielsen: 0
+Correct: actual author ranked in position 1
+==========
+16.3% complete
+==========
+Author: Elaine Chao
+Sample number: 2
+" It’s a rare pleasure to be back home in Kentucky, and truly a privilege to"...
+Warning: fragment 493 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 649 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 516 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Authorship similarity:
+  1. Gina Haspel: 1
+  2. Kevin Hassett: 0.47532
+  3. Fiona Hill: 0.44564
+  4. Jim Mattis: 0.40588
+  5. Rick Perry: 0.39992
+  6. John Sullivan: 0.39305
+  7. John Kelly: 0.39046
+  8. Andrew Wheeler: 0.38827
+  9. John Bolton: 0.38589
+  10. Nikki Haley: 0.38504
+  11. Mike Pence: 0.38473
+  12. Jared Kushner: 0.37767
+  13. Ryan Zinke: 0.3735
+  14. Robert Wilkie: 0.34764
+  15. Elaine Chao: 0.33523
+  16. Mike Pompeo: 0.31993
+  17. Steven Mnuchin: 0.30975
+  18. Linda McMahon: 0.30694
+  19. Ivanka Trump: 0.30653
+  20. Betsy DeVos: 0.30102
+  21. Raj Shah: 0.29651
+  22. Mick Mulvaney: 0.26998
+  23. Kellyanne Conway: 0.26502
+  24. Dan Coats: 0.25538
+  25. Jon Huntsman: 0.25455
+  26. Robert Lighthizer: 0.24735
+  27. Larry Kudlow: 0.21264
+  28. Ajit Pai: 0.15874
+  29. Ben Carson: 0.12742
+  30. Alexander Acosta: 0.12397
+  31. Sonny Perdue: 0.12273
+  32. Jeff Sessions: 0.11837
+  33. Alex Azar: 0.081982
+  34. Joseph Simons: 0.057546
+  35. Wilbur Ross: 0.04956
+  36. Melania Trump: 0.034882
+  37. Kirstjen Nielsen: 0
+Correct: actual author ranked in position 1
+==========
+16.7% complete
+==========
+Author: Elaine Chao
+Sample number: 3
+" Chairman Burr, Vice Chairman Warner, members of the committee: Thank you f"...
+Warning: fragment 493 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 649 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Warning: fragment 516 is sparse or empty 
+> In markov_matrix (line 23)
+  In text_authorship_validation (line 121) 
+Authorship similarity:
+  1. Gina Haspel: 1
+  2. Kevin Hassett: 0.55693
+  3. Fiona Hill: 0.51224
+  4. Andrew Wheeler: 0.47793
+  5. Jared Kushner: 0.47294
+  6. Mike Pence: 0.45781
+  7. John Sullivan: 0.45671
+  8. Rick Perry: 0.45496
+  9. John Bolton: 0.44815
+  10. Elaine Chao: 0.44437
+  11. Nikki Haley: 0.43664
+  12. Ryan Zinke: 0.42119
+  13. Jim Mattis: 0.41054
+  14. John Kelly: 0.40049
+  15. Mike Pompeo: 0.40048
+  16. Robert Wilkie: 0.36368
+  17. Raj Shah: 0.363
+  18. Steven Mnuchin: 0.35891
+  19. Linda McMahon: 0.3459
+  20. Mick Mulvaney: 0.34549
+  21. Betsy DeVos: 0.34401
+  22. Dan Coats: 0.33676
+  23. Ivanka Trump: 0.33307
+  24. Jon Huntsman: 0.32903
+  25. Robert Lighthizer: 0.29975
+  26. Kellyanne Conway: 0.29121
+  27. Larry Kudlow: 0.25481
+  28. Ajit Pai: 0.24576
+  29. Sonny Perdue: 0.20378
+  30. Alexander Acosta: 0.16601
+  31. Joseph Simons: 0.15372
+  32. Alex Azar: 0.12383
+  33. Jeff Sessions: 0.11892
+  34. Ben Carson: 0.10872
+  35. Wilbur Ross: 0.09618
+  36. Melania Trump: 0.031627
+  37. Kirstjen Nielsen: 0
+Correct: actual author ranked in position 1
+==========
+17.2% complete
+==========
+Author: Elaine Chao
+Sample number: 4
